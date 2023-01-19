@@ -102,6 +102,20 @@ h6,
   margin-bottom: 0;
 }
 
+.section-title.h1 h2,
+.section-title.h1 h3,
+.section-title.h1 h4,
+.section-title.h1 h5,
+.section-title.h1 h6,
+.section-title.h2 h2,
+.section-title.h2 h3,
+.section-title.h2 h4,
+.section-title.h2 h5,
+.section-title.h2 h6 {
+  font-size: inherit;
+  line-height: inherit;
+}
+
 .section-title__link {
   font-size: 14px;
   font-weight: 700;
@@ -729,7 +743,7 @@ main p {
 }
 
 .example-block {
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
 .example-item {
@@ -816,6 +830,19 @@ main p {
   background-color: var(--accent-color);
   border-radius: 4px;
   letter-spacing: 0.5px;
+}
+
+.example-item--model .example-item__img {
+  padding-bottom: 82%;
+}
+
+.example-item--model .example-item__img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.example-item--model .example-item__title {
+  margin-bottom: 10px;
 }
 
 .video-block {
@@ -974,6 +1001,41 @@ main p {
   padding: 0 10px;
 }
 
+.custom-checkbox__input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #F2F4F5;
+  border-radius: 6px;
+  width: 24px;
+  height: 24px;
+  vertical-align: sub;
+  margin-right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.custom-checkbox__input:checked {
+  background-color: var(--special-color);
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='10' viewBox='0 0 14 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13 0.875L4.75 9.125L1 5.375' stroke='white' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+.custom-checkbox__input:focus {
+  outline: none;
+  border-color: var(--special-color);
+  -webkit-box-shadow: 0 0 0 2px rgba(34, 146, 65, 0.1);
+          box-shadow: 0 0 0 2px rgba(34, 146, 65, 0.1);
+}
+
+.custom-checkbox__name {
+  color: var(--grey);
+}
+
 @media (max-width: 1199px) {
   h5,
   .h5 {
@@ -1066,5 +1128,11 @@ main p {
         -ms-flex: 0 0 40%;
             flex: 0 0 40%;
     padding-bottom: 35%;
+  }
+
+  .example-item--model {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }

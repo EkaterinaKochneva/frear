@@ -5,14 +5,14 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 
-	<link rel="stylesheet" href="libs/swiper-bundle.min.css?_v=20230118193551"/>
-	<link rel="stylesheet" href="libs/fancybox.min.css?_v=20230118193551"/>
+	<link rel="stylesheet" href="libs/swiper-bundle.min.css?_v=20230119183434"/>
+	<link rel="stylesheet" href="libs/fancybox.min.css?_v=20230119183434"/>
 
-	<link rel="stylesheet" href="css/style.css?_v=20230118193551">
-	<link rel="stylesheet" href="css/header.css?_v=20230118193551">
-	<link rel="stylesheet" href="css/footer.css?_v=20230118193551">
-	<link rel="stylesheet" href="libs/not-copy/jquery-ui.min.css?_v=20230118193551"/>
-	<link rel="stylesheet" href="css/shop.css?_v=20230118193551">
+	<link rel="stylesheet" href="css/style.css?_v=20230119183434">
+	<link rel="stylesheet" href="css/header.css?_v=20230119183434">
+	<link rel="stylesheet" href="css/footer.css?_v=20230119183434">
+	<link rel="stylesheet" href="libs/not-copy/jquery-ui.min.css?_v=20230119183434"/>
+	<link rel="stylesheet" href="css/shop.css?_v=20230119183434">
 	
 
 	<link rel="shortcut icon" href="favicon.ico">
@@ -305,7 +305,7 @@
                                 <a href="/">Главная</a>
                             </li>
                             <li class="breadcrumbs__item">
-                                <a href="#">Автономная канализация</a>
+                                <a href="#">Евролос Био канализация</a>
                             </li>
                             <li class="breadcrumbs__item">
                                 <span>Септики Евролос</span>
@@ -412,7 +412,7 @@
                                         </div>  
                                     </fieldset>
 
-                                    <fieldset class="category-filter__item">
+                                    <fieldset class="category-filter__item active">
                                         <legend class="category-filter__title">Количество человек</legend>
                                         <div class="category-filter__body">
                                             <label class="category-filter__input custom-checkbox">
@@ -435,20 +435,20 @@
                                                 <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
                                                 <span class="custom-checkbox__name">9-10</span>
                                             </label>
-                                            <label class="category-filter__input custom-checkbox">
+                                            <label class="category-filter__input custom-checkbox hidden visible">
                                                 <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
                                                 <span class="custom-checkbox__name">11-15</span>
                                             </label>
-                                            <label class="category-filter__input custom-checkbox">
+                                            <label class="category-filter__input custom-checkbox hidden visible">
                                                 <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
                                                 <span class="custom-checkbox__name">16-20</span>
                                             </label>
-                                            <label class="category-filter__input custom-checkbox">
+                                            <label class="category-filter__input custom-checkbox hidden visible">
                                                 <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
                                                 <span class="custom-checkbox__name">Более 20</span>
                                             </label>
                                         </div>  
-                                        <a class="category-filter__more-btn" href="">Скрыть</a>
+                                        <button class="category-filter__more-btn" data-text="Показать еще xx шт." type="button">Скрыть</button>
                                     </fieldset>
 
                                     <fieldset class="category-filter__item">
@@ -474,28 +474,28 @@
                                                 <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
                                                 <span class="custom-checkbox__name">Коловеси</span>
                                             </label>
-                                            <label class="category-filter__input custom-checkbox">
+                                            <label class="category-filter__input custom-checkbox hidden">
                                                 <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
                                                 <span class="custom-checkbox__name">Вортекс</span>
                                             </label>
-                                            <label class="category-filter__input custom-checkbox">
+                                            <label class="category-filter__input custom-checkbox hidden">
                                                 <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
                                                 <span class="custom-checkbox__name">ЕвроЛос</span>
                                             </label>
-                                            <label class="category-filter__input custom-checkbox">
+                                            <label class="category-filter__input custom-checkbox hidden">
                                                 <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
                                                 <span class="custom-checkbox__name">Тверь</span>
                                             </label>
-                                            <label class="category-filter__input custom-checkbox">
+                                            <label class="category-filter__input custom-checkbox hidden">
                                                 <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
                                                 <span class="custom-checkbox__name">Зорде</span>
                                             </label>
-                                            <label class="category-filter__input custom-checkbox">
+                                            <label class="category-filter__input custom-checkbox hidden">
                                                 <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
                                                 <span class="custom-checkbox__name">Далос</span>
                                             </label>
                                         </div>  
-                                        <a class="category-filter__more-btn" href="">Показать еще xx шт</a>
+                                        <button class="category-filter__more-btn" data-text="Показать еще xx шт." type="button">Показать еще xx шт.</button>
                                     </fieldset>
 
                                     <fieldset class="category-filter__item">
@@ -529,11 +529,31 @@
                                             </label>
                                             <label class="category-filter__input custom-checkbox">
                                                 <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
+                                                <span class="custom-checkbox__name">Для гостиницы</span>
+                                            </label>
+                                            <label class="category-filter__input custom-checkbox">
+                                                <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
                                                 <span class="custom-checkbox__name">Для предприятия</span>
+                                            </label>
+                                            <label class="category-filter__input custom-checkbox hidden">
+                                                <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
+                                                <span class="custom-checkbox__name">Для поселка</span>
+                                            </label>
+                                            <label class="category-filter__input custom-checkbox hidden">
+                                                <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
+                                                <span class="custom-checkbox__name">Для микрорайона</span>
+                                            </label>
+                                            <label class="category-filter__input custom-checkbox hidden">
+                                                <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
+                                                <span class="custom-checkbox__name">Для склада</span>
+                                            </label>
+                                            <label class="category-filter__input custom-checkbox hidden">
+                                                <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox">
+                                                <span class="custom-checkbox__name">Для котельной</span>
                                             </label>
                                             
                                         </div>  
-                                        <a class="category-filter__more-btn" href="">Показать еще xx шт</a>
+                                        <button class="category-filter__more-btn" data-text="Показать еще xx шт." type="button">Показать еще xx шт.</button>
                                     </fieldset>
 
                                     <fieldset class="category-filter__item">
@@ -588,9 +608,11 @@
                                             </label>  
                                         </div>  
                                     </fieldset>
+                                    <button type="button" class="category-filter__show-item">Показать</button>
+                                    <button type="button" class="category-filter__submit main-btn">Применить</button>
+                                    <button type="button" class="category-filter__reset main-btn" >Сбросить</button>
                                 </form>    
                             </div>
-
 
                             <div class="sidebar__search search">
                                 <form>
@@ -662,9 +684,790 @@
                                     <h1>Септики Евролос</h1>
                                 </div>
                                 <p>Вы думаете об автономной канализации, но какую выбрать не знаете? Присмотритесь к бренду Евролос. Септики этой фирмы просты в монтаже, эксплуатации, обслуживании. Они эффективно очищают сточные воды без распространения по участку неприятных запахов. Станции биологической очистки незаменимы при отсутствии центральной системы канализации, их устанавливают на дачах, в частных домах, в небольших загородных кафе и санаториях. Конструктивно Евролос выполнен энергонезависимо, это значит, что для его полноценной работы не нужно электричество. Продуман до мелочей, способен очищать стоки до 98%. Благодаря этому, вода может использоваться повторно, к примеру, для орошения дачной земли.</p>
+                                <div class="example-block">
+                                    <div class="example-block__row row gy-4">
+                                        <div class="col-lg-4">
+                                            <a class="example-block__item example-item example-item--model" href="evrolos-bio.html">                                            
+                                                <div class="example-item__img">
+                                                    <picture>
+                                                        <source type="image/webp" srcset="img/example/model-1.webp">
+                                                        <img src="img/example/model-1.jpg" alt="Евролос Био">
+                                                    </picture>
+                                                </div>    
+                                                <div class="example-item__content">
+                                                    <div class="example-item__title item-title">Евролос Био</div>                                                    
+                                                    <div class="example-item__offer">
+                                                        цена от <span class="example-item__prise">102 505 <span>руб.</span></span>                                                        
+                                                    </div>
+                                                    <div class="example-item__desc">
+                                                        Монтаж под ключ: 26 500 руб.
+                                                    </div>
+                                                    <div class="example-item__more">Подробнее</div>
+                                                </div>  
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <a class="example-block__item example-item example-item--model" href="/evrolos-pro.html">                                            
+                                                <div class="example-item__img">
+                                                    <picture>
+                                                        <source type="image/webp" srcset="img/example/model-2.webp">
+                                                        <img src="img/example/model-2.jpg" alt="Евролос Про">
+                                                    </picture>
+                                                </div>    
+                                                <div class="example-item__content">
+                                                    <div class="example-item__title item-title">Евролос Про</div>
+                                                    <div class="example-item__offer">
+                                                        цена от <span class="example-item__prise">107 825 <span>руб.</span></span>                                                        
+                                                    </div>
+                                                    <div class="example-item__desc">
+                                                        Монтаж под ключ: 26 500 руб.
+                                                    </div>
+                                                    <div class="example-item__more">Подробнее</div>
+                                                </div>  
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <a class="example-block__item example-item example-item--model" href="/evrolos-grunt.html">                                            
+                                                <div class="example-item__img">
+                                                    <picture>
+                                                        <source type="image/webp" srcset="img/example/model-3.webp">
+                                                        <img src="img/example/model-3.jpg" alt="Евролос Грунт">
+                                                    </picture>
+                                                </div>    
+                                                <div class="example-item__content">
+                                                    <div class="example-item__title item-title">Евролос Грунт</div>                                                    
+                                                    <div class="example-item__offer">
+                                                        цена от <span class="example-item__prise">149 815 <span>руб.</span></span>                                                        
+                                                    </div>
+                                                    <div class="example-item__desc">
+                                                        Монтаж под ключ: 32 000 руб.
+                                                    </div>
+                                                    <div class="example-item__more">Подробнее</div>
+                                                </div>  
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section-btn">
+                                    <a class="main-btn link-modal-js" href="#modal-call">АКЦИЯ: Автономная канализация для загородного дома "под ключ" за 129 005 рублей!</a>
+                                </div>
                             </section>
                             <!--  //Top section -->
+                            <!-- Section models-->
+                            <section class="section">
+                                <div class="section-title h1">
+                                    <h2>Модельный ряд</h2>
+                                </div>
+                                <div class="category__tabs main-tabs tabs">
+                                    <div class="tabs__caption main-tabs__caption">
+                                        <button class="tabs__btn main-tabs__btn" type="button">популярные</button>
+                                        <button class="tabs__btn main-tabs__btn active" type="button">количество человек</button>
+                                        <button class="tabs__btn main-tabs__btn" type="button">назначение</button>
+                                    </div>
+                                    <div class="tabs__wrap main-tabs__wrap">
+                                        <div class="tabs__content">            
+                                            <ul class="category__tabs-list">  
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/lokalnye-ochistnye-sooruzhenija.html">ЛОС</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/lokalnaja-kanalizacija-dlja-dachi.html">локальная канализация</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/avtonomnaja-kanalizacija.html">автономные канализации</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/stancii-biologicheskoj-ochistki-dlya-zagorodnogo-doma.html">станции глубокой биологической очистки</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-pod-kljuch.html">септик под ключ</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/aeratsionnye-stantsii.html">аэрационные станции</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-bez-otkachki-i-zapaha.html">без откачки и запаха</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/energonezavisimye-septiki.html">энергонезависимые (без электричества)</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/nedorogoj-septik.html">недорогие</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/montazh-kanalizacii.html">с установкой</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/ekonom-septik.html">эконом</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/kanalizacija-iz-zhb-kolec.html">из жб колец (бетонные)</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/plastikovyj-septik.html">пластиковые</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/prinuditelnye-septiki.html">принудительные</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/samotechnye-septiki.html">самотечные</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/bolshie-septiki.html">большие</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/mini-septik.html">маленькие (мини)</a>
+                                                </li>
+                                                
+                                            </ul>                                          
+                                        </div>
+                                        <div class="tabs__content active">
+                                            <ul class="category__tabs-list">
+                                                <li class="category__tabs-item">
+                                                    <span class="category__tabs-link">3 человека</span>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-na-4-cheloveka.html">4 человека</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-na-5-chelovek.html">5 человек</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-na-6-chelovek.html">6 человек</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-na-7-chelovek.html">7 человек</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-na-8-chelovek.html">8 человек</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-na-10-chelovek.html">10 человек</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-na-12-chelovek.html">12 человек</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-na-15-chelovek.html">15 человек</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-na-20-chelovek.html">20 человек</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-na-30-chelovek.html">30 человек</a>
+                                                </li>
+                                            </ul>   
+                                        </div>
+                                        <div class="tabs__content">
+                                            <ul class="category__tabs-list">
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-dlya-chastnogo-doma.html">для частного дома</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-dlya-dachi.html">для дачи</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-dlya-doma.html">для дома</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-dlya-zagorodnogo-doma.html">для загородного дома</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-dlya-tualeta.html">для туалета</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/kanalizacija-kottedga.html">для коттеджа</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septik-dlya-postoyannogo-prozhivaniya.html">для постоянного проживания</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/kanalizaciya-dlya-kafe-i-gostinic.html">для кафе и гостиниц</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septiki-dlya-bani.html">для бани</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septiki-dlya-kuhni.html">для кухни</a>
+                                                </li>
+                                                <li class="category__tabs-item">
+                                                    <a class="category__tabs-link" href="/septiki-dlya-predpriyatiya.html">для предприятия</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="category__filter-btn filter-btn-js main-btn" type="button">
+                                    Фильтр
+                                </button>
+                                <form class="category__line-filter line-filter">
+                                    <div class="line-filter__sort-wrap">
+                                        <button class="line-filter__sort-btn main-btn" type="button">Сортировка</button>
+                                        <div class="line-filter__sort">
+                                            <div class="line-filter__item">
+                                                <select class="line-filter__select line-filter__select--big">
+                                                    <option value="default">По умолчанию</option>
+                                                    <option value="max">Сортировать по цене от большей</option>
+                                                    <option value="min">Сортировать по цене от меньшей</option>                                        
+                                                </select>
+                                            </div>
+                                            <div class="line-filter__item">
+                                                <select class="line-filter__select line-filter__select--small">
+                                                    <option value="21">Показать 21</option>
+                                                    <option value="42">Показать 42</option>
+                                                    <option value="84">Показать 84</option>                                        
+                                                    <option value="105">Показать 105</option>                                        
+                                                    <option value="все">Показать все</option>                                        
+                                                </select> 
+                                            </div>
+                                            <div class="line-filter__item">                                       
+                                                <label class="line-filter__input custom-checkbox">
+                                                    <input class="custom-checkbox__input" value="Акция" name="checkbox" type="checkbox" >
+                                                    <span class="line-filter__text">% Акция</span>
+                                                </label>
+                                            </div>
+                                            <div class="line-filter__item">                                       
+                                                <label class="line-filter__input custom-checkbox">
+                                                    <input class="custom-checkbox__input" value="Хит продаж" name="checkbox" type="checkbox" >
+                                                    <span class="line-filter__text">Хит продаж</span>
+                                                </label>
+                                            </div>
+                                            <div class="line-filter__item">                                       
+                                                <label class="line-filter__input custom-checkbox">
+                                                    <input class="custom-checkbox__input" value="Супер цена" name="checkbox" type="checkbox" >
+                                                    <span class="line-filter__text">Супер цена</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="line-filter__view">
+                                        <label class="line-filter__radio view-radio">
+                                            <input class="view-radio__input" value="grid-view" name="view" type="radio" checked>
+                                            <svg class="view-radio__icon icon-svg">
+                                                <use xlink:href="img/icons/sprite-icons.svg#grid-view"></use>
+                                            </svg>                                            
+                                        </label>
+                                        <label class="line-filter__radio view-radio">
+                                            <input class="view-radio__input" value="row-view" name="view" type="radio">
+                                            <svg class="view-radio__icon icon-svg">
+                                                <use xlink:href="img/icons/sprite-icons.svg#row-view"></use>
+                                            </svg>  
+                                        </label>
+                                    </div>    
+                                </form>
+                                <div class="category__catalog products-catalog">
+                                    <div class="products-catalog__row row" id="mse2_results">
+                                        <div class="ms2_product products-catalog__item col-sm-6 col-lg-6 col-xl-4">
+                                            <form method="post" class="ms2_form prod-item prod-item--grid">
+                                                <a class="prod-item__picture" href="#" >
+                                                    <picture>
+                                                        <img class="prod-item__img" src="img/product/product-1.jpg" alt="">
+                                                    </picture>                                                
+                                                </a>
+                                                <div class="prod-item__content">
+                                                    <a class="prod-item__title" href="#">Септик Евролос Био 3</a>
+                                                    <div class="prod-item__body">
+                                                        <div class="prod-item__body-top">
+                                                            <ul class="prod-item__feature">
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#people"></use>
+                                                                        </svg>
+                                                                        Кол-во человек:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">3</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#drop"></use>
+                                                                        </svg>
+                                                                        Производительность, м³/сут:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">0,6</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#dropping"></use>
+                                                                        </svg>
+                                                                        Залповый сброс:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">150 л</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="prod-item__body-bottom">
+                                                            <div class="prod-item__offer">
+                                                                Цена: <span class="prod-item__prise">102 505 <span>руб.</span></span>                                                        
+                                                            </div>
+                                                            <div class="prod-item__text">
+                                                                Монтаж: 26 500 ₽
+                                                            </div>
+                                                            <a class="prod-item__btn main-btn link-modal-js" href="#modal-call">Заказать</a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="ms2_product products-catalog__item col-sm-6 col-lg-6 col-xl-4">
+                                            <form method="post" class="ms2_form prod-item prod-item--grid">
+                                                <a class="prod-item__picture" href="#" >
+                                                    <picture>
+                                                        <img class="prod-item__img" src="img/product/product-1.jpg" alt="">
+                                                    </picture>                                                
+                                                </a>
+                                                <div class="prod-item__content">
+                                                    <a class="prod-item__title" href="#">Септик Евролос Био 4</a>
+                                                    <div class="prod-item__body">
+                                                        <div class="prod-item__body-top">
+                                                            <ul class="prod-item__feature">
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#people"></use>
+                                                                        </svg>
+                                                                        Кол-во человек:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">3</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#drop"></use>
+                                                                        </svg>
+                                                                        Производительность, м³/сут:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">0,6</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#dropping"></use>
+                                                                        </svg>
+                                                                        Залповый сброс:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">150 л</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="prod-item__body-bottom">
+                                                            <div class="prod-item__offer">
+                                                                Цена: <span class="prod-item__prise">102 505 <span>руб.</span></span>                                                        
+                                                            </div>
+                                                            <!-- <div class="prod-item__text">
+                                                                Монтаж: 26 500 ₽
+                                                            </div> -->
+                                                            <a class="prod-item__btn main-btn link-modal-js" href="#modal-call">Заказать</a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="ms2_product products-catalog__item col-sm-6 col-lg-6 col-xl-4">
+                                            <form method="post" class="ms2_form prod-item prod-item--grid">
+                                                <a class="prod-item__picture" href="#" >
+                                                    <picture>
+                                                        <img class="prod-item__img" src="img/product/product-1.jpg" alt="">
+                                                    </picture>                                                
+                                                </a>
+                                                <div class="prod-item__content">
+                                                    <a class="prod-item__title" href="#">Септик Евролос Био 5</a>
+                                                    <div class="prod-item__body">
+                                                        <div class="prod-item__body-top">
+                                                            <ul class="prod-item__feature">
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#people"></use>
+                                                                        </svg>
+                                                                        Кол-во человек:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">3</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#drop"></use>
+                                                                        </svg>
+                                                                        Производительность, м³/сут:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">0,6</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#dropping"></use>
+                                                                        </svg>
+                                                                        Залповый сброс:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">150 л</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="prod-item__body-bottom">
+                                                            <div class="prod-item__offer">
+                                                                Цена: <span class="prod-item__prise">102 505 <span>руб.</span></span>                                                        
+                                                            </div>
+                                                            <!-- <div class="prod-item__text">
+                                                                Монтаж: 26 500 ₽
+                                                            </div> -->
+                                                            <a class="prod-item__btn main-btn link-modal-js" href="#modal-call">Заказать</a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="ms2_product products-catalog__item col-sm-6 col-lg-6 col-xl-4">
+                                            <form method="post" class="ms2_form prod-item prod-item--grid">
+                                                <a class="prod-item__picture" href="#" >
+                                                    <picture>
+                                                        <img class="prod-item__img" src="img/product/product-1.jpg" alt="">
+                                                    </picture>                                                
+                                                </a>
+                                                <div class="prod-item__content">
+                                                    <a class="prod-item__title" href="#">Септик Евролос Грунт 3</a>
+                                                    <div class="prod-item__body">
+                                                        <div class="prod-item__body-top">
+                                                            <ul class="prod-item__feature">
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#people"></use>
+                                                                        </svg>
+                                                                        Кол-во человек:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">3</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#drop"></use>
+                                                                        </svg>
+                                                                        Производительность, м³/сут:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">0,6</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#dropping"></use>
+                                                                        </svg>
+                                                                        Залповый сброс:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">150 л</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="prod-item__body-bottom">
+                                                            <div class="prod-item__offer">
+                                                                Цена: <span class="prod-item__prise">102 505 <span>руб.</span></span>                                                        
+                                                            </div>
+                                                            <div class="prod-item__text">
+                                                                Монтаж: 26 500 ₽
+                                                            </div>
+                                                            <a class="prod-item__btn main-btn link-modal-js" href="#modal-call">Заказать</a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="ms2_product products-catalog__item col-sm-6 col-lg-6 col-xl-4">
+                                            <form method="post" class="ms2_form prod-item prod-item--grid">
+                                                <a class="prod-item__picture" href="#" >
+                                                    <picture>
+                                                        <img class="prod-item__img" src="img/product/product-1.jpg" alt="">
+                                                    </picture>                                                
+                                                </a>
+                                                <div class="prod-item__content">
+                                                    <a class="prod-item__title" href="#">Септик Евролос Грунт 4</a>
+                                                    <div class="prod-item__body">
+                                                        <div class="prod-item__body-top">
+                                                            <ul class="prod-item__feature">
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#people"></use>
+                                                                        </svg>
+                                                                        Кол-во человек:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">3</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#drop"></use>
+                                                                        </svg>
+                                                                        Производительность, м³/сут:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">0,6</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#dropping"></use>
+                                                                        </svg>
+                                                                        Залповый сброс:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">150 л</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="prod-item__body-bottom">
+                                                            <div class="prod-item__offer">
+                                                                Цена: <span class="prod-item__prise">102 505 <span>руб.</span></span>                                                        
+                                                            </div>
+                                                            <!-- <div class="prod-item__text">
+                                                                Монтаж: 26 500 ₽
+                                                            </div> -->
+                                                            <a class="prod-item__btn main-btn link-modal-js" href="#modal-call">Заказать</a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="ms2_product products-catalog__item col-sm-6 col-lg-6 col-xl-4">
+                                            <form method="post" class="ms2_form prod-item prod-item--grid">
+                                                <a class="prod-item__picture" href="#" >
+                                                    <picture>
+                                                        <img class="prod-item__img" src="img/product/product-1.jpg" alt="">
+                                                    </picture>                                                
+                                                </a>
+                                                <div class="prod-item__content">
+                                                    <a class="prod-item__title" href="#">Септик Евролос Грунт 5</a>
+                                                    <div class="prod-item__body">
+                                                        <div class="prod-item__body-top">
+                                                            <ul class="prod-item__feature">
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#people"></use>
+                                                                        </svg>
+                                                                        Кол-во человек:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">3</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#drop"></use>
+                                                                        </svg>
+                                                                        Производительность, м³/сут:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">0,6</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#dropping"></use>
+                                                                        </svg>
+                                                                        Залповый сброс:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">150 л</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="prod-item__body-bottom">
+                                                            <div class="prod-item__offer">
+                                                                Цена: <span class="prod-item__prise">102 505 <span>руб.</span></span>                                                        
+                                                            </div>
+                                                            <!-- <div class="prod-item__text">
+                                                                Монтаж: 26 500 ₽
+                                                            </div> -->
+                                                            <a class="prod-item__btn main-btn link-modal-js" href="#modal-call">Заказать</a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="ms2_product products-catalog__item col-sm-6 col-lg-6 col-xl-4">
+                                            <form method="post" class="ms2_form prod-item prod-item--grid">
+                                                <a class="prod-item__picture" href="#" >
+                                                    <picture>
+                                                        <img class="prod-item__img" src="img/product/product-1.jpg" alt="">
+                                                    </picture>                                                
+                                                </a>
+                                                <div class="prod-item__content">
+                                                    <a class="prod-item__title" href="#">Септик Евролос Про 3</a>
+                                                    <div class="prod-item__body">
+                                                        <div class="prod-item__body-top">
+                                                            <ul class="prod-item__feature">
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#people"></use>
+                                                                        </svg>
+                                                                        Кол-во человек:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">3</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#drop"></use>
+                                                                        </svg>
+                                                                        Производительность, м³/сут:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">0,6</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#dropping"></use>
+                                                                        </svg>
+                                                                        Залповый сброс:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">150 л</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="prod-item__body-bottom">
+                                                            <div class="prod-item__offer">
+                                                                Цена: <span class="prod-item__prise">102 505 <span>руб.</span></span>                                                        
+                                                            </div>
+                                                            <div class="prod-item__text">
+                                                                Монтаж: 26 500 ₽
+                                                            </div>
+                                                            <a class="prod-item__btn main-btn link-modal-js" href="#modal-call">Заказать</a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="ms2_product products-catalog__item col-sm-6 col-lg-6 col-xl-4">
+                                            <form method="post" class="ms2_form prod-item prod-item--grid">
+                                                <a class="prod-item__picture" href="#" >
+                                                    <picture>
+                                                        <img class="prod-item__img" src="img/product/product-1.jpg" alt="">
+                                                    </picture>                                                
+                                                </a>
+                                                <div class="prod-item__content">
+                                                    <a class="prod-item__title" href="#">Септик Евролос Про 4</a>
+                                                    <div class="prod-item__body">
+                                                        <div class="prod-item__body-top">
+                                                            <ul class="prod-item__feature">
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#people"></use>
+                                                                        </svg>
+                                                                        Кол-во человек:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">3</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#drop"></use>
+                                                                        </svg>
+                                                                        Производительность, м³/сут:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">0,6</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#dropping"></use>
+                                                                        </svg>
+                                                                        Залповый сброс:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">150 л</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="prod-item__body-bottom">
+                                                            <div class="prod-item__offer">
+                                                                Цена: <span class="prod-item__prise">102 505 <span>руб.</span></span>                                                        
+                                                            </div>
+                                                            <!-- <div class="prod-item__text">
+                                                                Монтаж: 26 500 ₽
+                                                            </div> -->
+                                                            <a class="prod-item__btn main-btn link-modal-js" href="#modal-call">Заказать</a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="ms2_product products-catalog__item col-sm-6 col-lg-6 col-xl-4">
+                                            <form method="post" class="ms2_form prod-item prod-item--grid">
+                                                <a class="prod-item__picture" href="#" >
+                                                    <picture>
+                                                        <img class="prod-item__img" src="img/product/product-1.jpg" alt="">
+                                                    </picture>                                                
+                                                </a>
+                                                <div class="prod-item__content">
+                                                    <a class="prod-item__title" href="#">Септик Евролос Про 5</a>
+                                                    <div class="prod-item__body">
+                                                        <div class="prod-item__body-top">
+                                                            <ul class="prod-item__feature">
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#people"></use>
+                                                                        </svg>
+                                                                        Кол-во человек:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">3</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#drop"></use>
+                                                                        </svg>
+                                                                        Производительность, м³/сут:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">0,6</div>
+                                                                </li>
+                                                                <li class="prod-item__feature-row">
+                                                                    <div class="prod-item__feature-key">
+                                                                        <svg class="prod-item__feature-icon icon-svg">
+                                                                            <use xlink:href="img/icons/sprite-icons.svg#dropping"></use>
+                                                                        </svg>
+                                                                        Залповый сброс:
+                                                                    </div>
+                                                                    <div class="prod-item__feature-val">150 л</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="prod-item__body-bottom">
+                                                            <div class="prod-item__offer">
+                                                                Цена: <span class="prod-item__prise">102 505 <span>руб.</span></span>                                                        
+                                                            </div>
+                                                            <!-- <div class="prod-item__text">
+                                                                Монтаж: 26 500 ₽
+                                                            </div> -->
+                                                            <a class="prod-item__btn main-btn link-modal-js" href="#modal-call">Заказать</a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="products-catalog__bottom">
+                                        <a class="products-catalog__more-btn main-btn" href="#">
+                                            Показать еще
+                                        </a>
+                                        <div class="products-catalog__pagination mse2_pagination">
+                                            <ul class="pagination">
+                                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>                                   
 
+                                </div>
+                            </section>
+                            <!-- //Section models-->
 
                         </div>
                     </div>
@@ -774,12 +1577,12 @@
     </div>
 </footer>
 
-<script src="libs/jquery.min.js?_v=20230118193551"></script>
-<script src="libs/fancybox.min.js?_v=20230118193551"></script>
-<script src="libs/swiper-bundle.min.js?_v=20230118193551"></script>
-<script src="libs/dynamic_adapt.js?_v=20230118193551"></script>
-<script src="js/main.js?_v=20230118193551"></script> 
-<script src="js/shop.js?_v=20230118193551"></script> 
+<script src="libs/jquery.min.js?_v=20230119183434"></script>
+<script src="libs/fancybox.min.js?_v=20230119183434"></script>
+<script src="libs/swiper-bundle.min.js?_v=20230119183434"></script>
+<script src="libs/dynamic_adapt.js?_v=20230119183434"></script>
+<script src="js/main.js?_v=20230119183434"></script> 
+<script src="js/shop.js?_v=20230119183434"></script> 
         </div>  
     </body>
 </html>
