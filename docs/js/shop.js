@@ -1,5 +1,6 @@
 $(document).ready(function(){
     
+    // Спойлеры в фильтре в сайдбаре
     $('.brands-sidebar__title').click(function () {
         $(this).toggleClass("collapse").next().slideToggle();
     });
@@ -19,6 +20,7 @@ $(document).ready(function(){
             }
     });
 
+    // Фильтр для адаптива
     $('.filter-btn-js').click(function () {
 		$('.category-filter').addClass('active');
 		$('body').addClass('fixed-mb');
@@ -32,6 +34,10 @@ $(document).ready(function(){
 		$('body').removeClass('fixed-mb');
 	});
     
+    // Сортировка для адаптива
+    $('.line-filter__sort-btn').click(function () {
+        $('.line-filter__sort').slideToggle();
+    });
 
     // Tabs
 	$('.tabs__caption').on('click', '.tabs__btn:not(.active)', function (e) {
@@ -41,10 +47,21 @@ $(document).ready(function(){
 			.eq($(this).index()).fadeIn(50).addClass('active');
 	});
 
+    // Основной слайдер в карточке товара
+    const swiperProductThumbs = new Swiper('.product-thumbs__swiper', {
 
-    $('.line-filter__sort-btn').click(function () {
-        $('.line-filter__sort').slideToggle();
-    });
+		slidesPerView: 'auto',
+		spaceBetween: 9,
+	});
+
+	const swiperProduct = new Swiper('.product-slider__swiper', {
+
+		slidesPerView: 1,
+		draggable: true,
+		thumbs: {
+			swiper: swiperProductThumbs,
+		  },
+	});
 
 
 })

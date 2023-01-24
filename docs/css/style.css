@@ -1349,6 +1349,10 @@ main p {
   line-height: 1.5;
 }
 
+main p:last-child {
+  margin-bottom: 0;
+}
+
 .icon-svg {
   fill: currentColor;
   display: inline-block;
@@ -2037,13 +2041,13 @@ main p {
   color: var(--main-color-font);
 }
 
-.example-item__prise {
+.example-item__price {
   color: var(--special-color);
   font-size: 26px;
   font-weight: 700;
 }
 
-.example-item__prise span {
+.example-item__price span {
   color: var(--main-color-font);
 }
 
@@ -2233,7 +2237,7 @@ main p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 20px 0;
-  margin: 30px 0 40px;
+  margin: 30px 0;
 }
 
 .icons-list__item {
@@ -2365,6 +2369,10 @@ main p {
   vertical-align: middle;
   text-align: center;
   height: 45px;
+}
+
+.color-table td span {
+  color: var(--special-color);
 }
 
 main ol:not([class]) {
@@ -2532,6 +2540,15 @@ main ul:not([class]) li::before {
   background-position: left center;
 }
 
+.completed-block--narrow .completed-block__item {
+  padding-bottom: 5px;
+}
+
+.completed-block--narrow .completed-block__img {
+  margin-bottom: 11px;
+  padding-bottom: 100%;
+}
+
 .gallery-block {
   margin: 30px 0;
 }
@@ -2569,6 +2586,58 @@ main ul:not([class]) li::before {
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+.download-form {
+  padding: 38px 20px;
+  border: 1px solid var(--bg-color);
+  border-radius: 4px;
+  text-align: center;
+  height: 100%;
+}
+
+.download-form__title {
+  margin-bottom: 17px;
+}
+
+.download-form__input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.download-form__input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.download-form__input::-moz-placeholder {
+  text-align: center;
+}
+
+.download-form__input:-ms-input-placeholder {
+  text-align: center;
+}
+
+.download-form__input::-ms-input-placeholder {
+  text-align: center;
+}
+
+.download-form__input::placeholder {
+  text-align: center;
+}
+
+.download-form__btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.not-style li {
+  margin-bottom: 8px;
+}
+
+.not-style li:last-child {
+  margin-bottom: 0;
 }
 
 @media (min-width: 576px) {
@@ -5409,7 +5478,7 @@ main ul:not([class]) li::before {
   .container-md,
   .container-sm,
   .container {
-    max-width: 1160px;
+    max-width: 1170px;
   }
 
   .col-xl {
@@ -6411,6 +6480,10 @@ main ul:not([class]) li::before {
 }
 
 @media (max-width: 575px) {
+  body {
+    font-size: 14px;
+  }
+
   .slider-button-prev,
   .slider-button-next {
     display: none;

@@ -70,3 +70,9 @@ img {
   vertical-align: top;
   max-width: 100%;
 }
+
+@media (max-width: 575px) {
+  body {
+    font-size: 14px;
+  }
+}

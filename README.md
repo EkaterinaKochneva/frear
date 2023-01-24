@@ -6,3 +6,4 @@
 6. https://ekaterinakochneva.github.io/frear/kessony.html
 7. https://ekaterinakochneva.github.io/frear/kessony-row.html
 8. https://ekaterinakochneva.github.io/frear/avtonomnaja-kanalizacija.html
+9. https://ekaterinakochneva.github.io/frear/card.html
