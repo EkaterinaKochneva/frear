@@ -256,8 +256,28 @@ main p:last-child {
   color: #1296C9;
 }
 
+.messengers-color__item--telegramm-2 {
+  color: #1296C9;
+}
+
 .messengers-color__item--whatsapp {
   color: #1EB250;
+}
+
+.messengers-color__item--viber {
+  color: #AE56A4;
+}
+
+.messengers-color__item--skype {
+  color: #32C5F0;
+}
+
+.messengers-color__item--vk {
+  color: #2AABEE;
+}
+
+.messengers-color__item--youtube {
+  color: #FF0302;
 }
 
 .big-phone {
@@ -275,6 +295,11 @@ main p:last-child {
   font-size: 14px;
   line-height: 1.14;
   white-space: nowrap;
+}
+
+.grey-text {
+  font-size: 14px;
+  color: var(--grey);
 }
 
 .breadcrumbs {
@@ -643,8 +668,12 @@ main p:last-child {
           flex: 0 0 18px;
 }
 
-.sale-block__desc {
-  margin-bottom: 30px;
+.sale-block__desc span {
+  color: var(--special-color);
+}
+
+.sale-block__row {
+  margin-top: 6px;
 }
 
 .sale-block + .sale-block {
@@ -660,7 +689,13 @@ main p:last-child {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  gap: 8px;
+  gap: 10px;
+}
+
+.sale-item:hover img {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .sale-item__img {
@@ -685,6 +720,30 @@ main p:last-child {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sale-item__mark {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35px;
+  height: 35px;
+  color: var(--white);
+  font-size: 20px;
+  background-color: var(--special-color);
+  border-radius: 50%;
 }
 
 .sale-item__content {
@@ -701,7 +760,9 @@ main p:last-child {
 }
 
 .sale-item__title {
-  margin-bottom: 4px;
+  margin-bottom: 7px;
+  line-height: 1.2;
+  color: var(--main-color-font);
 }
 
 .sale-item__offer {
@@ -715,7 +776,6 @@ main p:last-child {
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 4px;
-  margin-top: auto;
 }
 
 .sale-item__offer-left {
@@ -749,6 +809,20 @@ main p:last-child {
 .sale-item__desc {
   font-size: 14px;
   color: var(--grey);
+}
+
+.sale-item__desc span {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: var(--accent-color);
+  font-weight: 700;
+  -webkit-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.sale-item__desc span:hover {
+  color: var(--accent-color-hover);
 }
 
 .example-block {

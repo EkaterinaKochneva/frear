@@ -22,7 +22,6 @@ $(document).ready(function(){
 		parent.children(".bottom-header__submenu").slideToggle();
 	});
 
-
 	// Cлайдер сертификатов
 	const swiperCertificates = new Swiper('.certificates__slider', {
 		loop: true,
@@ -58,5 +57,27 @@ $(document).ready(function(){
 		  },
 	});
 
+	// Высота заголовка в карточке акций (для одинакового расположения блока с ценой)	
+	function titleSaleHeight(){
+		if ($(window).width() > '992'){
+			$('.sale-block__row').each(function() {
+				let lengthRow = $(this).find('.sale-item__title').length;
+				// console.log(lengthRow);
+
+				let heightTitleBase = 0;		
+				for ( let i = 0; i < lengthRow; i++ ) {
+					let heightTitle = $(this).find('.sale-item__title').eq(i).outerHeight();
+					if (heightTitleBase < heightTitle) {
+						heightTitleBase = heightTitle;
+					} 			
+				}
+				// console.log(heightTitleBase);
+				for ( let i = 0; i < lengthRow; i++ ) {
+					$(this).find('.sale-item__title').outerHeight(heightTitleBase);			
+				}
+			})
+		} 
+	}
+	titleSaleHeight();
 
 })
