@@ -18,6 +18,17 @@ $(document).ready(function(){
 			el: '.top-banner__pagination',
 			clickable: true,
 		  },
+		on: {
+		init() {
+			this.el.addEventListener('mouseenter', () => {
+			this.autoplay.stop();
+			});
+	
+			this.el.addEventListener('mouseleave', () => {
+			this.autoplay.start();
+			});
+		}
+		},
 	});
 
     // Cлайдер выполненных работ
