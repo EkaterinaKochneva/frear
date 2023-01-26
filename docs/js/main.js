@@ -111,4 +111,27 @@ $(document).ready(function(){
 	}
 	titleSaleHeight();
 
+	// Модальные окна
+	const link = ".link-modal-js";
+	$(link).fancybox({
+		arrows: false,
+		infobar: false,
+		touch: false,
+		type: 'inline',
+		autoFocus: false,
+		i18n: {
+			en: {
+				CLOSE: "Закрыть",
+				NEXT: "Вперед",
+				PREV: "Назад" 
+
+			}
+		}
+	});
+	$(".modal-close-js").click(function () {
+		$.fancybox.close();
+	});
+	$.fancybox.defaults.backFocus = false;
+
+
 })
