@@ -1063,7 +1063,7 @@ main ol:not([class]):not(:last-child) {
   margin-bottom: 30px;
 }
 
-main ol:not([class]) li {
+main ol:not([class]) > li {
   position: relative;
   padding-bottom: 20px;
   padding-left: 55px;
@@ -1081,7 +1081,7 @@ main ol:not([class]) li {
           justify-content: center;
 }
 
-main ol:not([class]) li::before {
+main ol:not([class]) > li::before {
   content: counter(li-counter);
   counter-increment: li-counter;
   display: -webkit-box;
@@ -1104,7 +1104,7 @@ main ol:not([class]) li::before {
   height: 35px;
 }
 
-main ol:not([class]) li::after {
+main ol:not([class]) > li::after {
   content: "";
   display: block;
   position: absolute;
@@ -1114,7 +1114,7 @@ main ol:not([class]) li::after {
   bottom: -3px;
 }
 
-main ol:not([class]) li:last-child::after {
+main ol:not([class]) > li:last-child::after {
   display: none;
 }
 
@@ -1315,7 +1315,7 @@ main ul:not([class]) li::before {
     text-align: left;
   }
 
-  main ol:not([class]) li {
+  main ol:not([class]) > li {
     padding-left: 45px;
     padding-bottom: 15px;
   }
