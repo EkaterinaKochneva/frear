@@ -51,18 +51,7 @@ $(document).ready(function(){
 		  },
 	});
 
-    // Аккардион 
-	$('.accordion-block__more').click(function(){         
 
-		if(!$(this).hasClass('active')){	
-            $(this).addClass('active').text('Скрыть');
-            $(this).parents('.accordion-block__item').find('.accordion-block__desc').slideDown(); 
-				
-		} else {	
-			$(this).removeClass('active').text('Подробнее');
-			$(this).parents('.accordion-block__item').find('.accordion-block__desc').slideUp(); 
-		}
-	});
 
 
 })

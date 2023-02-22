@@ -14,3 +14,5 @@
 14. https://ekaterinakochneva.github.io/frear/otoplenie.html
 15. https://ekaterinakochneva.github.io/frear/ochistka-vody.html
 16. https://ekaterinakochneva.github.io/frear/burenie-skvazhin-na-vodu.html
+Новые страницы
+17. https://ekaterinakochneva.github.io/frear/vodosnabzhenie.html

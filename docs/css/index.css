@@ -63,6 +63,7 @@
   font-size: 23px;
   font-weight: 700;
   padding-top: 5px;
+  line-height: 1;
 }
 
 .top-banner__mark::before {
@@ -74,8 +75,9 @@
   left: 0;
   right: 0;
   z-index: -1;
-  border: 35px solid var(--special-color);
-  border-bottom: 11px solid transparent !important;
+  background-image: url("data:image/svg+xml,%3Csvg width='70' height='95' viewBox='0 0 70 95' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0H70V95L35 84L0 95V0Z' fill='%231EB250'/%3E%3C/svg%3E%0A");
+  background-position: center;
+  background-size: cover;
 }
 
 .top-banner__content {
@@ -207,52 +209,6 @@
   margin-top: 10px;
 }
 
-.accordion-block {
-  margin: 30px 0;
-  border-top: 1px solid var(--grey-2);
-}
-
-.accordion-block__item {
-  padding: 22px 0 28px;
-  font-size: 14px;
-  border-bottom: 1px solid var(--grey-2);
-}
-
-.accordion-block__title {
-  margin-bottom: 10px;
-}
-
-.accordion-block__row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  gap: 0 15px;
-}
-
-.accordion-block__prew {
-  width: 85%;
-}
-
-.accordion-block__more {
-  text-transform: uppercase;
-  color: var(--accent-color);
-  text-decoration: underline;
-  font-weight: 700;
-}
-
-.accordion-block__desc {
-  display: none;
-  padding-top: 10px;
-}
-
 .gifts-block__item {
   position: relative;
   display: -webkit-box;
@@ -350,10 +306,6 @@
 
   .completed-item__title {
     margin-top: 0;
-  }
-
-  .accordion-block__prew {
-    width: 100%;
   }
 
   .gifts-block__item {
