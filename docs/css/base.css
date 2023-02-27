@@ -269,7 +269,7 @@
 }
 
 .icons-list--3 .icons-list__item {
-  width: 30%;
+  width: 28%;
 }
 
 .icons-list--3 .icons-list__icon {
@@ -640,6 +640,39 @@
   color: var(--accent-color);
   border-color: var(--accent-color);
   background-color: var(--white);
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.pagination .page-link {
+  display: block;
+  font-weight: 600;
+  color: var(--accent-color);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -webkit-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.pagination .page-link:hover {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+.pagination .active .page-link {
+  background-color: var(--accent-color);
+  color: var(--white);
 }
 
 @media (min-width: 576px) {
