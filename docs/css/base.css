@@ -128,11 +128,34 @@
   color: var(--accent-color);
   text-decoration: underline;
   text-align: center;
+  margin-bottom: 12px;
+}
+
+.example-item-form__text {
+  text-align: center;
+  margin: 15px 0;
 }
 
 .example-item-form__btn {
   margin-top: 12px;
   width: 100%;
+}
+
+.example-item-form--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.example-item-form--flex .example-item-form__btn {
+  margin-top: auto;
 }
 
 .video-block--small {
@@ -245,6 +268,19 @@
   max-width: 300px;
 }
 
+.icons-list--3 .icons-list__item {
+  width: 30%;
+}
+
+.icons-list--3 .icons-list__icon {
+  width: 35px;
+  height: 35px;
+}
+
+.icons-list--3 .icons-list__title {
+  font-size: 16px;
+}
+
 .table-wrapper {
   width: 100%;
   overflow-x: auto;
@@ -260,7 +296,8 @@
   line-height: 1.2;
 }
 
-.color-table th {
+.color-table th,
+.color-table tfoot td {
   color: var(--white);
   background-color: var(--accent-color);
   padding: 17px 10px;
@@ -436,6 +473,14 @@
   text-align: center;
 }
 
+.gallery-block__title-link {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
 .download-form {
   padding: 38px 20px;
   border: 1px solid var(--bg-color);
@@ -553,6 +598,50 @@
   border-radius: 4px;
 }
 
+.tabs__btn {
+  -webkit-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.tabs__content {
+  display: none;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.tabs__content.active {
+  display: block;
+  opacity: 1;
+}
+
+.main-tabs__caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+}
+
+.main-tabs__btn {
+  color: var(--grey);
+  font-weight: 700;
+  padding: 10px;
+  background-color: var(--bg-color);
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.main-tabs__btn.active,
+.main-tabs__btn:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  background-color: var(--white);
+}
+
 @media (min-width: 576px) {
   .our-team__pagination {
     display: none;
@@ -627,6 +716,10 @@
     max-width: none;
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .icons-list--3 .icons-list__item {
+    width: 100%;
   }
 }
 

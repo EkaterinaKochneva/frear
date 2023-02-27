@@ -39,13 +39,7 @@ $(document).ready(function(){
         $('.line-filter__sort').slideToggle();
     });
 
-    // Tabs
-	$('.tabs__caption').on('click', '.tabs__btn:not(.active)', function (e) {
-		$(this)
-			.addClass('active').siblings().removeClass('active')
-			.closest('.tabs').find('.tabs__content').hide().removeClass('active')
-			.eq($(this).index()).fadeIn(50).addClass('active');
-	});
+
 
     // Основной слайдер в карточке товара
     const swiperProductThumbs = new Swiper('.product-thumbs__swiper', {
