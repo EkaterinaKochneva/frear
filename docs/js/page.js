@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    	// Cлайдер команды
+	// Cлайдер команды
 	const swiperTeam = new Swiper('.our-team__slider', {
 		loop: true,
 		slidesPerView: 1,
@@ -28,5 +28,13 @@ $(document).ready(function(){
 			el: '.our-team__pagination',
 			clickable: true,
 		  },
+	});
+
+	// Плавная прокрутка
+	$(".smooth-scroll-link-js").on("click", function (e) {
+		e.preventDefault();
+		var get_id = $(this).attr('href');
+		var target = $(get_id).offset().top; 
+		$("html, body").animate({ scrollTop: target }, 500);
 	});
 })

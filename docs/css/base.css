@@ -732,6 +732,10 @@
     padding-bottom: 30%;
   }
 
+  .background-block {
+    padding: 20px;
+  }
+
   .icons-list--light {
     gap: 15px 0;
   }

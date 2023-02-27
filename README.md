@@ -20,4 +20,6 @@
 17. https://ekaterinakochneva.github.io/frear/vodosnabzhenie.html
 18. https://ekaterinakochneva.github.io/frear/vodosnabzhenie-iz-kolodca.html
 19. https://ekaterinakochneva.github.io/frear/provesti-vodu-v-chastnyj-dom.html
-19. https://ekaterinakochneva.github.io/frear/razvodka-trub-vodosnabzheniya.html
+20. https://ekaterinakochneva.github.io/frear/razvodka-trub-vodosnabzheniya.html
+21. https://ekaterinakochneva.github.io/frear/stati.html
+22. https://ekaterinakochneva.github.io/frear/chistka-septika.html
