@@ -25,3 +25,6 @@
 22. https://ekaterinakochneva.github.io/frear/chistka-septika.html
 23. https://ekaterinakochneva.github.io/frear/otoplenie-html.html
 24. https://ekaterinakochneva.github.io/frear/elektricheskoe-otoplenie-v-chastnom-dome.html
+25. https://ekaterinakochneva.github.io/frear/tt-kotli.html
+26. https://ekaterinakochneva.github.io/frear/gas-oborud.html
+27. https://ekaterinakochneva.github.io/frear/gazovoe-otoplenie.html

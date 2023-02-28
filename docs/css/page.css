@@ -768,6 +768,12 @@
   background-color: var(--bg-color);
 }
 
+.mark-span {
+  font-size: 18px;
+  color: var(--special-color);
+  font-weight: 700;
+}
+
 @media (max-width: 1199px) {
   .hero-block__content {
     padding-left: 20px;
