@@ -2129,7 +2129,7 @@ main p:last-child {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 15px 0;
+  gap: 15px 10px;
 }
 
 .icons-list__img {
@@ -6411,6 +6411,13 @@ main ul:not([class]) li::before {
 
   .form-call__btn {
     margin: 30px auto 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .icons-list__img {
+    width: 60px;
+    height: 60px;
   }
 }
 
