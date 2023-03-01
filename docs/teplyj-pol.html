@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	<title>Монтаж водяного теплого пола</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="stylesheet" href="libs/swiper-bundle.min.css?_v=20230301124523"/>
+	<link rel="stylesheet" href="libs/fancybox.min.css?_v=20230301124523"/>
+
+	<link rel="stylesheet" href="css/style.css?_v=20230301124523">
+	<link rel="stylesheet" href="css/base.css?_v=20230301124523">
+	<link rel="stylesheet" href="css/header.css?_v=20230301124523">
+	<link rel="stylesheet" href="css/footer.css?_v=20230301124523">
+	<link rel="stylesheet" href="libs/not-copy/jquery-ui.min.css?_v=20230301124523"/>
+	<link rel="stylesheet" href="css/page.css?_v=20230301124523">
+	
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="header__top top-header">
+		<div class="top-header__content container">
+            <div class="row align-items-center">
+                <div class="col-lg-2 d-none d-lg-block">
+                    <div class="top-header__slogan">
+                        Канализация, водоснабжение, отопление загородного дома
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <nav class="top-header__menu menu-top" data-da=".mobile-header__content--main,767,1">
+                        <ul class="menu-top__list">
+                            <!-- Активный пункт меню/текущая страница должны быть в span -->                    
+                            <!-- Родительский пункт меню &tplParentRow -->                    
+                            <li class="menu-top__item">
+                                <a href="#" class="menu-top__link">О компании</a>
+                                <svg class="menu-top__icon-arrow icon-svg">
+                                    <use xlink:href="img/icons/sprite-icons.svg#chevron"></use>
+                                </svg>
+                                <div class="menu-top__submenu">
+                                    <ul class="menu-top__sublist">
+                                        <li class="menu-top__subitem"><a href="#" class="menu-top__sublink">Вакансии</a></li>                                
+                                        <li class="menu-top__subitem"><a href="#" class="menu-top__sublink">Наши сотрудники</a></li>                                
+                                        <li class="menu-top__subitem"><a href="#" class="menu-top__sublink">Фотогалерея</a></li>                                
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-top__item menu-top__item--accent"><a href="#" class="menu-top__link">Акции</a></li>
+                            <li class="menu-top__item active"><span class="menu-top__link">Доставка</span></li>
+                            <li class="menu-top__item"><a href="#" class="menu-top__link">Оплата</a></li>
+                            <li class="menu-top__item"><a href="#" class="menu-top__link">Отзывы</a></li>
+                            <li class="menu-top__item"><a href="#" class="menu-top__link">Статьи</a></li>
+                            <li class="menu-top__item"><a href="#" class="menu-top__link">Портфолио</a></li>
+                            <li class="menu-top__item"><a href="#" class="menu-top__link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+		</div>        
+	</div>
+    <div class="header__body body-header">
+        <div class="body-header__content container">
+            <div class="row gy-2 align-items-center">
+                <div class="col-8 col-md-2">
+                    <div class="logo-header">
+                        <a class="logo-header__link" href="/">
+                            <picture><source srcset="img/logo.webp" type="image/webp"><img class="logo-header__img" src="img/logo.png" alt="Логотип в шапке"></picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 d-md-none">
+                    <div class="body-header__burger">
+                        <span>Меню</span>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="body-header__info info-header">
+                        <div class="info-header__location">
+                            <b>Санкт-Петербург</b>, м. Лесная, Кантемировская ул., д.39, офис 211
+                        </div>
+                        <div class="info-header__time">
+                            <p>Монтажники без выходных: 09:00&nbsp;&#8209;&nbsp;21:00</p>
+                            <p>Офис пн-пт : 10:00&nbsp;&#8209;&nbsp;18:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="body-header__contacts">
+                        <div class="body-header__messengers messengers-color">
+                            <a href="#" class="messengers-color__item messengers-color__item--telegramm">
+                                <svg class="messengers-color__icon icon-svg">
+                                    <use xlink:href="img/icons/sprite-icons.svg#telegramm"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="messengers-color__item messengers-color__item--whatsapp">
+                                <svg class="messengers-color__icon icon-svg">
+                                    <use xlink:href="img/icons/sprite-icons.svg#whatsapp"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="body-header__communications">
+                            <a class="body-header__phone-link big-phone" href="tel:+78123173669" >+7 (812) 317-36-69</a>
+                            <a class="body-header__email-link email-link" href="mailto:zakaz@ecolife-pro.ru" >zakaz@ecolife-pro.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__bottom bottom-header">
+        <div class="bottom-header__content container">
+            <nav class="bottom-header__nav" data-da=".mobile-header__content--services,767,1" >
+                <ul class="bottom-header__list">                        
+                    <li class="bottom-header__item">
+                        <a href="#" class="bottom-header__link">Септики</a>
+                        <svg class="bottom-header__icon icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#chevron-bold"></use>
+                        </svg>
+                        <div class="bottom-header__submenu">
+                            <div class="bottom-header__submenu-category submenu-category">
+                                <div class="submenu-category__item submenu-category__item--manufacturer">
+                                    <div class="submenu-category__title">
+                                        Производитель
+                                    </div>
+                                    <ul class="submenu-category__list">
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">ЕвроЛос</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Септики Топас</a></li>
+                                        <li class="submenu-category__item active"><span class="submenu-category__link">Топас-С</span></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Флотенк БиоПурит</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">БиоДевайс</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Септики Юнилос Астра</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Дача</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Колос</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">АКС</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Гринлос</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Коловеси (kolo vesi)</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Септики БиоДека</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Оптима</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Волгарь</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Септики Термит</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Вортекс</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Ново Эко</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Кристалл БИО</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Ergobox</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">КиБез</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Далос</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Genesis</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Зорде</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Спарта</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Септики Тверь</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Евробион</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Galay</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">БиоДача</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Аэробокс</a></li>
+                                    </ul>
+                                </div>
+                                <div class="submenu-category__item submenu-category__item--amount">
+                                    <div class="submenu-category__title">
+                                        Количество человек
+                                    </div>
+                                    <ul class="submenu-category__list">
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">2</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">3</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">4</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">5</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">6</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">7</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">8</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">10</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">12</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">15</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="submenu-category__item submenu-category__item--another">
+                                    <div class="submenu-category__title">
+                                        Другая продукция
+                                    </div>
+                                    <ul class="submenu-category__list">
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Автономные канализации</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Канализация из жб колец</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Монтаж автономной канализации</a></li>                                            
+                                    </ul>
+                                </div>
+                                <div class="submenu-category__item submenu-category__item--purpose">
+                                    <div class="submenu-category__title">
+                                        Назначение
+                                    </div>
+                                    <ul class="submenu-category__list">
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">В частный дом</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Для дачи</a></li>
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Для туалета</a></li>                                            
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Под высокие грунтовые воды</a></li>                                            
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Для пром. предприятий</a></li>                                            
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Для сезонного проживания</a></li>                                            
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Дешево</a></li>                                            
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Накопительные</a></li>                                            
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Энергонезависимые</a></li>                                            
+                                        <li class="submenu-category__item"><a href="#" class="submenu-category__link">Глубокой био очистки</a></li>                                            
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="bottom-header__item">
+                        <a href="#" class="bottom-header__link">Водоснабжение</a>
+                        <svg class="bottom-header__icon icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#chevron-bold"></use>
+                        </svg>
+                        <div class="bottom-header__submenu">
+                            <ul class="bottom-header__sublist">
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Водоснабжение из колодца</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Водоснабжение из скважины</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Разводка труб водоснабжения</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="bottom-header__item"><a href="#" class="bottom-header__link">Погреба</a></li>
+                    <li class="bottom-header__item"><a href="#" class="bottom-header__link">Кессоны</a></li>
+                    <li class="bottom-header__item"><a href="#" class="bottom-header__link">Отопление</a>
+                        <svg class="bottom-header__icon icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#chevron-bold"></use>
+                        </svg>
+                        <div class="bottom-header__submenu">
+                            <ul class="bottom-header__sublist">
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Электрическое</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Твердотопливное</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Газовое оборудование</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Газовое отопление</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Радиаторное</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Теплый пол</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="bottom-header__item"><a href="#" class="bottom-header__link">Колодцы</a>
+                        <svg class="bottom-header__icon icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#chevron-bold"></use>
+                        </svg>
+                        <div class="bottom-header__submenu">
+                            <ul class="bottom-header__sublist">
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Строительство колодца под ключ</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Поиск воды</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Ремонт</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Газовое отопление</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Чистка</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="bottom-header__item"><a href="#" class="bottom-header__link">Услуги</a>
+                        <svg class="bottom-header__icon icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#chevron-bold"></use>
+                        </svg>
+                        <div class="bottom-header__submenu">
+                            <ul class="bottom-header__sublist">
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Обустройство заезда на участок</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Монтаж вентиляции</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Обустройство канавы</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Дренаж участка</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Отмостка вокруг дома под ключ</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Обслуживание септиков</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Обслуживание систем водоснабжения</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="bottom-header__item"><a href="#" class="bottom-header__link">Электрика</a>
+                        <svg class="bottom-header__icon icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#chevron-bold"></use>
+                        </svg>
+                        <div class="bottom-header__submenu">
+                            <ul class="bottom-header__sublist">
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Для частного дома</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Для квартиры</a></li>
+                                <li class="bottom-header__subitem"><a href="#" class="bottom-header__sublink">Для коммерческих объектов</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="header__mobile mobile-header d-md-none">
+        <button class="mobile-header__close" type="button"></button>
+        <div class="mobile-header__item">
+            <div class="mobile-header__title">
+                Основное меню
+            </div>
+            <div class="mobile-header__content mobile-header__content--main"></div>
+        </div>
+        <div class="mobile-header__item">
+            <div class="mobile-header__title">
+                Услуги
+            </div>
+            <div class="mobile-header__content mobile-header__content--services"></div>
+        </div>
+    </div>
+</header>
+            <main class="page base">
+                <div class="container"> 
+                    <nav class="page__breadcrumbs breadcrumbs" aria-label="breadcrumb">
+                        <ol class="breadcrumbs__list">
+                            <li class="breadcrumbs__item">
+                                <a href="/">Главная</a>
+                            </li>    
+                            <li class="breadcrumbs__item">
+                                <a href="/">Отопление загородного дома</a>
+                            </li>                     
+                            <li class="breadcrumbs__item">
+                                <span>Монтаж водяного теплого пола</span>
+                            </li>                                    
+                        </ol>                                
+                    </nav>
+                    <div class="page__row">
+                        <aside class="page__sidebar sidebar">
+                            <div class="sidebar__search search">
+    <form>
+        <div class="search__input-wrap">
+            <input class="search__input" name="text" type="text" placeholder="Поиск" autocomplete="off">
+        </div>
+        <button class="search__btn"> 
+            <svg class="search__icon icon-svg">
+                <use xlink:href="img/icons/sprite-icons.svg#search"></use>
+            </svg>
+        </button>
+    </form>
+</div>
+<form class="sidebar__consultant consultant-block">                                
+    <div class="consultant-block__avatar">
+        <picture>
+            <!-- <source type="image/webp" srcset="img/.webp"> -->
+            <img class="consultant-block__img" src="img/consultant.jpg" alt="">
+        </picture>
+    </div>
+    <div class="consultant-block__name">
+        Александр
+    </div>
+    <a class="consultant-block__phone big-phone" href="tel:+78123173669">
+        +7 (812) 317-36-69
+    </a>                                
+    <div class="consultant-block__inputs">
+        <input class="consultant-block__input custom-input" type="tel" name="Телефон" placeholder="+7 (___) ___-__-__" >
+        <button class="consultant-block__btn main-btn" type="submit">Оставить заявку</button>
+    </div>
+</form>
+<a class="sidebar__reviews reviews-sidebar" href="/otzivi-clientov.html">                                
+    <svg class="reviews-sidebar__icon icon-svg">
+        <use xlink:href="img/icons/sprite-icons.svg#balloon"></use>
+    </svg>
+    <div class="reviews-sidebar__title">
+        Отзывы наших клиентов
+    </div>
+    <div class="reviews-sidebar__stars">
+        <svg class="reviews-sidebar__star icon-svg">
+            <use xlink:href="img/icons/sprite-icons.svg#star"></use>
+        </svg>
+        <svg class="reviews-sidebar__star icon-svg">
+            <use xlink:href="img/icons/sprite-icons.svg#star"></use>
+        </svg>
+        <svg class="reviews-sidebar__star icon-svg">
+            <use xlink:href="img/icons/sprite-icons.svg#star"></use>
+        </svg>
+        <svg class="reviews-sidebar__star icon-svg">
+            <use xlink:href="img/icons/sprite-icons.svg#star"></use>
+        </svg>
+        <svg class="reviews-sidebar__star icon-svg">
+            <use xlink:href="img/icons/sprite-icons.svg#star"></use>
+        </svg>
+        
+    </div>
+</a>
+<a class="sidebar__promo promo-sidebar link-modal-js" href="#modal-call">
+    <picture>
+        <source type="image/webp" srcset="img/sidebar-promo.webp">
+        <img class="promo-sidebar__img" src="img/sidebar-promo.jpg" alt="Скидка на комплексный заказ">
+    </picture>
+</a>                            
+                        </aside>
+                        <div class="page__body">          
+                            <section class="mb-4">
+                                <div class="section-title">
+                                    <h1>Монтаж водяного теплого пола</h1>
+                                </div>
+                                <p>Сегодня всё больше владельцев частных домов выбирают в&nbsp;качестве отопления монтаж водяного тёплого пола. Это действительно хорошая альтернатива радиаторам, поскольку при равных затратах эффективность такого обогрева выше на&nbsp;30-40%. Дополнительное преимущество в&nbsp;том, что систему водяных тёплых полов можно сделать не&nbsp;только в&nbsp;жилом пространстве, но&nbsp;и&nbsp;на&nbsp;террасе, спортивной площадке, придомовых дорожках.</p>   
+                                <p>При всей простоте устройства тёплого пола система требует точных теплотехнических расчётов, грамотного проектирования, профессионального монтажа, хорошего оборудования и&nbsp;правильных материалов.</p>                                               
+                            </section>  
+                            <!--noindex-->
+                            <section class="section">
+                                <div class="section-title h2">
+                                    <h2>1. Подложка с фольгированным отражателем</h2>
+                                </div>
+                                <div class="row gy-4 mb-4">
+                                    <div class="col-lg-6">
+                                        <a class="img-lg-cover img-lg-cover--contain" href="img/otoplenie/podlozhka-valtec-s-otrozhatelem.jpg" data-fancybox="gallery-teplyi-pol-1">
+                                            <picture>
+                                                <source type="image/webp" srcset="img/otoplenie/podlozhka-valtec-s-otrozhatelem.webp">
+                                                <img src="img/otoplenie/podlozhka-valtec-s-otrozhatelem.jpg" alt="Подложка Valtec с отражателем">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li>Стоимость с монтажом от <span class="mark-big">1 428 руб.</span> за м<sup>2</sup></li>
+                                            <li>Применяется для домов из сип-панелей и каркасно-щитовых домов</li>
+                                        </ul>
+                                        <p>Перечень материалов и работ:</p>
+                                        <ul>
+                                            <li>подложка с фольгированным отражателем; </li>
+                                            <li>труба сшитый полиэтилен frankische pex-a (сшитый полиэтилен, Германия) 16 мм;</li>
+                                            <li>крепеж: скоба крепежная металлическая однолапковая; </li>
+                                            <li>работа по подготовке основания для укладки контуров ТП;</li>
+                                            <li>работа по укладке контуров ТП.</li>
+                                        </ul>
+                                        <p class="grey-text mb-4"><i>* - Нажмите на картинку для увеличения</i></p>                                        
+                                        <div>
+                                            <a class="main-btn link-modal-js" href="#modal-call">Получить консультацию</a>
+                                        </div>
+                                    </div>                                    
+                                </div>                          
+                                <div class="section-title h2">
+                                    <h2>2. Подложка из пеноплекс (фундамент\основа)</h2>
+                                </div>
+                                <div class="row gy-4 mb-4">
+                                    <div class="col-lg-6">
+                                        <a class="img-lg-cover img-lg-cover--contain" href="img/otoplenie/osnovanie-penopleks.jpg" data-fancybox="gallery-teplyi-pol-1">
+                                            <picture>
+                                                <source type="image/webp" srcset="img/otoplenie/osnovanie-penopleks.webp">
+                                                <img src="img/otoplenie/osnovanie-penopleks.jpg" alt="Подложка из пеноплекс (фундамент\основа)">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li>Стоимость с монтажом от <span class="mark-big">2 178 руб.</span> за м<sup>2</sup></li>
+                                            <li>Применяется для домов на железобетонном фундаменте.</li>
+                                        </ul>
+                                        <p>Перечень материалов и работ:</p>
+                                        <ul>
+                                            <li>подложка пеноплекс (фундамент\основа)  толщиной 50мм;</li>
+                                            <li>труба frankische pex-a (сшитый полиэтилен, Германия) 16 мм;</li>
+                                            <li>сетка армированная ячейка 150 х 150 толщиной 3,8 мм;</li>
+                                            <li>крепеж стяжка кабельная нейлоновая;</li>
+                                            <li>работа по подготовке основания для укладки контуров ТП;</li>
+                                            <li>работа по укладке контуров ТП.</li>
+                                        </ul>
+                                        <p class="grey-text mb-4"><i>* - Нажмите на картинку для увеличения</i></p>                                        
+                                        <div>
+                                            <a class="main-btn link-modal-js" href="#modal-call">Получить консультацию</a>
+                                        </div>
+                                    </div>                                    
+                                </div>                                    
+                                <div class="section-title h2">
+                                    <h2>3. Подложка из полистирольной плиты с фиксирующим покрытием</h2>
+                                </div>
+                                <div class="row gy-4 mb-4">
+                                    <div class="col-lg-6">
+                                        <a class="img-lg-cover img-lg-cover--contain" href="img/otoplenie/teploizoljacionnaja-plita-iz-penopolistirola.jpg" data-fancybox="gallery-teplyi-pol-1">
+                                            <picture>
+                                                <source type="image/webp" srcset="img/otoplenie/teploizoljacionnaja-plita-iz-penopolistirola.webp">
+                                                <img src="img/otoplenie/teploizoljacionnaja-plita-iz-penopolistirola.jpg" alt="Теплоизоляционная плита из пенополистирола">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li>Стоимость с монтажом от <span class="mark-big">2 406 руб.</span> за м<sup>2</sup></li>
+                                        </ul>
+                                        <p>Перечень материалов и работ:</p>
+                                        <ul>
+                                            <li>полистирольная плита с фиксирующим покрытием;</li>
+                                            <li>труба frankische pex-a (сшитый полиэтилен, Германия) 16мм;</li>
+                                            <li>работа по подготовке основания для укладки контуров ТП;</li>
+                                            <li>работа по укладке контуров ТП.</li>
+                                        </ul>
+                                        <p class="grey-text mb-4"><i>* - Нажмите на картинку для увеличения</i></p>                                        
+                                        <div>
+                                            <a class="main-btn link-modal-js" href="#modal-call">Получить консультацию</a>
+                                        </div>
+                                    </div>                                    
+                                </div>  
+                                <p>Цены действительны при условии:</p>
+                                <ul>
+                                    <li>Площадь отапливаемой поверхности от 50 м<sup>2</sup></li>
+                                    <li>Расстояние от КАД до 50 км.</li>
+                                </ul>
+                                <p class="grey-text"><i>* - Если расстояние до Вашего объекта больше 50 км. или площадь меньше 50 м. кв., то стоимость Вы можете уточнить у наших менеджеров</i></p>                 
+                            </section>
+                            <!--/noindex-->
+
+                            <section class="section">
+                                <div class="section-title h2">
+                                    <h2>Преимущества водяных тёплых полов</h2>
+                                </div>
+                                <div class="row gy-4 mb-3">
+                                    <div class="col-lg-5">
+                                        <a class="img-lg-cover img-lg-cover--contain" href="img/otoplenie/preimuschestvapolov.jpg" data-fancybox="gallery-teplyi-pol-2">
+                                            <picture>
+                                                <source type="image/webp" srcset="img/otoplenie/preimuschestvapolov.webp">
+                                                <img src="img/otoplenie/preimuschestvapolov.jpg" alt="Преимущества теплых полов">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Есть две системы подогрева пола &ndash; водяная и электрическая. Последняя проще в монтаже и управлении, но значительно дороже в эксплуатации. Чтобы это понять, достаточно сравнить цены на электроэнергию и природный газ, от которого работает котёл. Затраты на материал и оплату монтажа водяного тёплого пола окупаются за 4-5 лет его использования (с оговоркой на то, что проектирование и реализация доверены знающим людям).</p>
+                                    </div>                                    
+                                </div>                                    
+                                <p>Какие преимущества даёт тёплый пол:</p>
+                                <ul>
+                                    <li>Равномерный прогрев помещения по всему объёму в постоянном режиме. Выражение &laquo;тянет по полу&raquo; актуально для традиционных систем отопления. Тёплый воздух от радиаторов, в полном соответствии с законами физики, поднимается под потолок, оставляя полы холодными. Лучше всех это знают жители первых этажей многоквартирных домов, где теплоизоляции помещений строители уделяют не слишком много внимания, и владельцы жилья с высокими потолками.</li>
+                                    <li>Здоровый микроклимат, поскольку водяной тёплый пол даёт равномерное тепло и не сушит воздух. Особенно это важно для детей, аллергиков и пожилых людей.</li>
+                                    <li>Отсутствие видимых отопительных приборов, которые часто приходится маскировать подручными средствами, дорогими ажурными решётками, поскольку они уродуют интерьер.</li>
+                                    <li>Комфорт при использовании в качестве напольного покрытия керамической или натуральной плитки в ванной, на кухне, балконе, веранде или в бассейне.</li>
+                                </ul>
+                                <p>Водяной тёплый пол это современная, экономичная, удобная и эффективная система отопления дома, квартиры, дачи. Он быстро нагревает комнату, медленно остывает, а коллектор позволяет регулировать температуру каждой комнаты.</p>                  
+                            </section>
+                            <section class="section">
+                                <div class="section-title h2">
+                                    <h2>Для каких помещений подходит</h2>
+                                </div>
+                                <p>Если монтаж тёплого водяного пола закладывается при проектировании дома или дачи, то ограничений по его использованию нет. В готовом помещении такое отопление возможно, если соблюдается ряд условий:</p>
+                                <ul>
+                                    <li>Согласно СНиП, высота потолка в жилье допускается не менее 2,5 м. Это нужно учитывать, поскольку монтаж стяжки тёплого водяного пола &laquo;съедает&raquo; от 8 до 20 см.</li>
+                                    <li>Имеет значение и высота дверных проёмов. Здесь, без учёта тёплого водяного пола, требуется оставить 2,1 м.</li>
+                                    <li>Основание пола должно быть достаточно крепким, чтобы не провалиться под бетонной стяжкой.</li>
+                                    <li>Горизонтальные перепады поверхности более 0,5 см приводят к завоздушиванию системы, нагрузке на насос. Устранить это после монтажа пола будет нельзя.</li>
+                                    <li>Работы проводят после того, как в доме вставлены окна и завершена штукатурка стен.</li>
+                                </ul>
+                                <p>Если помещение подходит по всем параметрам, то поверхность под тёплый водяной пол подготавливают специально. Удаляют старую стяжку, выравнивают, очищают пол от остатков строительного мусора и пыли.</p>
+                            </section>
+                            <section class="section">
+                                <div class="section-title h2">
+                                    <h2>Особенности проектирования тёплого водяного пола</h2>
+                                </div>                                
+                                <div class="article-img">
+                                    <picture>
+                                        <source type="image/webp" srcset="img/otoplenie/ystroistvo-teplogo-vodianogo-pola.webp">
+                                        <img src="img/otoplenie/ystroistvo-teplogo-vodianogo-pola.jpg" alt="Устройство теплого водяного пола">
+                                    </picture>
+                                </div>
+                                <p>Грамотный расчёт и подбор труб и оборудования для тёплого пола при его проектировании - это основа эффективного водяного отопления. Качественные фитинги застрахуют систему от скорого ремонта, а смесительный коллектор (с регулировочными клапанами) и насос обеспечит комфортное обслуживание. Однако начинать следует с расчёта температуры будущего покрытия.</p>
+                                <p>Показатели зависят от помещения:</p>
+                                <ul>
+                                    <li>Для жилых комнат комфортным будет тёплый пол с показателями от 21 до 29 градусов. Для детской и спален разумнее ориентироваться по верхней границе. Для кухни, гостиной &ndash; по нижней.</li>
+                                    <li>Проходные помещения, холлы, коридоры, прихожая требуют монтажа более тёплого водяного пола. Здесь рекомендуется температура в 30 градусов, чтобы не охлаждать жилую зону.</li>
+                                    <li>Ванная, туалет, бассейн &ndash; до 33 градусов.</li>
+                                    <li>В офисе или рабочих кабинетах делают расчёт тёплого пола на 28-30 градусов.</li>
+                                </ul>
+                                <p>Равномерность прогрева и удержание требуемых цифр на градуснике зависит от правильной укладки труб, их диаметра и длины. Поскольку водяной тёплый пол относится к низкотемпературным системам отопления, то максимальный нагрев теплоносителя на подаче будет 55-60 градусов. Разница с обраткой не должна превышать 10 градусов. Иначе площадь пола и помещение будет прогреваться неровно.</p>
+                                <p>Основными факторами здесь будут длина контура (одной петли от смесительного узла), диаметр труб и геометрия их укладки. Есть показатели максимально допустимой длины трубы определённого размера, которые учитывают при проектировании:</p>
+                                <ul>
+                                    <li>Для трубы диаметра 16 мм &ndash; 70-90 м.</li>
+                                    <li>Для труб в 17 мм &ndash; 90-100 м.</li>
+                                    <li>Трубу в 20 мм можно удлинить до 120 м, но следует помнить, что предельный размер петли создаёт повышенную нагрузку на насос и систему.</li>
+                                </ul>
+                                <div class="accent-block">
+                                    <p>Обратите внимание! Монтаж одного контура делают одинаковыми трубами. Каждый подключают к отдельному выводу коллекторного узла.</p>
+                                </div>
+                                
+                                <p>Расстояние между трубами (или шаг раскладки) выбирают исходя из планируемой тепловой нагрузки, локации и способности самой трубы гнуться без образования залома. Для PEX трубы минимальный зазор составляет 10 см.</p>
+                                <p>Рекомендуемое расстояние:</p>
+                                <ul>
+                                    <li>Узкая раскладка труб оправдана у внешних стен, где в силу естественных причин возникают более холодные зоны. Укладка делается в 5-6 рядов с шагом в 100-150 мм.</li>
+                                    <li>К центру комнаты и возле внутренних стен шаг монтажа увеличивают до 20-30 см.</li>
+                                    <li>Для дополнительного отопления достаточно расстояния между трубами в 40-50 см. Максимальный шаг укладки труб без потери эффективности системы 60 см.</li>
+                                    <li>В помещениях с повышенной влажностью (ванна, баня, бассейн) эффективно работает укладка через 150 мм.</li>
+                                </ul>
+                                <p>Проектируют не только ширину шага, но и конфигурацию укладки труб с учётом перепада температур теплоносителя на подаче и обратке. Если петли располагать последовательно (удобным для монтажа змеевиком), то прогрев поверхности разделит помещение на более тёплую и прохладную зону. В помещении, где есть две внешние стены, такой способ монтажа выравнивает температуру по всему объёму.</p>
+                                <p>Второй способ &ndash; укладка труб улиткой или двойной спиралью. При монтаже чередуют горячий сегмент трубы подачи с несколько остывшей обраткой. Расстояние между трубами не должно превышать 30 см, чтобы не получилось выраженных полос с разной температурой. Если условие соблюдено, то полы прогреваются равномерно по всей площади поверхности. Монтаж тёплого водяного пола улиткой технологически сложнее, чем укладка петель змеевиком.</p>
+                                <p>Проектирование смесительного узла определяет всю работу системы тёплого водяного пола. Его оборудование включает:</p>
+                                <ul>
+                                    <li>Подающий коллектор с насосом, клапанами стравливания воздуха, перекрывающими и сливными вентилями.</li>
+                                    <li>Обратный коллектор с воздухоотводчиком и дренажом.</li>
+                                    <li>Фитинги для подключения труб.</li>
+                                    <li>Крепления для самих коллекторов, насоса, котла.</li>
+                                </ul>
+                                <div class="accent-block">
+                                    <p>Обратите внимание! Монтаж одного контура делают одинаковыми трубами. Каждый подключают к отдельному выводу коллекторного узла. Все транзитные трубы должны иметь теплоизоляцию.</p> 
+                                </div>
+                                 
+                            </section>
+                            <section class="section">
+                                <div class="section-title h2">
+                                    <h2>Особенности монтажа</h2>
+                                </div>
+                                <p>Есть два вида устройства тёплого водяного пола, которые называются &laquo;сухой&raquo; и &laquo;мокрый&raquo;. Первый используется для помещений с деревянным основанием, где нет возможности сделать массивную песчано-цементную стяжку. Трубы укладывают на специальную теплоизоляционную подложку и накрывают гипсо-стружечными или цементно-стружечными плитами.</p>
+                                <p>&laquo;Мокрый&raquo; водяной тёплый пол своим названием обязан технологии монтажа &ndash; залитая бетонная стяжка требует времени на высыхание. Конструктивно это несколько слоёв, состоящих из гидро- и теплоизоляторов, бетона с трубами, напольного покрытия. Коллекторный узел от способа монтажа не зависит.</p>
+                                <p>Схематично монтаж тёплого водяного пола выглядит так:</p>
+                                <ul>
+                                    <li>Подготовка поверхности и укладка компенсатора теплового расширения при нагреве пола. Демпферная лента прокладывается по периметру помещения, включая дверные проёмы. Ширина её должна превышать толщину планируемого пирога на 20 мм.</li>
+                                    <li>Укладка гидроизоляции. Делается не всегда, а только в помещениях повышенной влажности или над таковыми. Здесь подойдёт обычная качественная полиэтиленовая плёнка.</li>
+                                    <li>Укладка теплоизолятора. Используют пеноплекс, полистирол или подложку с фольгированным отражателем (слой алюминия должен быть защищён специальной плёнкой).</li>
+                                    <li>Разметка поверхности и установка креплений.</li>
+                                    <li>Монтаж труб, насоса и подключение системы тёплого водяного пола к оборудованию. Коллекторный узел можно вынести в котельную, если она расположена в доме.</li>
+                                    <li>Испытательный запуск и опрессовка системы тёплого водяного пола под повышенным давлением.</li>
+                                    <li>Монтаж стяжки и укладка финального покрытия пола.</li>
+                                </ul>
+                                <p>Толщина бетонной стяжки с пластификатором 3-7 см. Ориентировочное время сушки пола &ndash; 4 дня на 1 см. Пробный рабочий запуск производится теплоносителем комнатной температуры. Выход на проектную мощность осуществляется пошагово, с прибавкой нагрева на 5 градусов каждые сутки.</p>
+                                
+                                <div class="background-block text-center">
+                                    <p>Чтобы заказать проектирование и монтаж тёплого водяного пола в Санкт-Петербурге и Ленобласти позвоните по тел. <a href="tel:+78123173669">+7 (812) 317-36-69</a>. Цена в руб. зависит от площади в м2.</p>
+                                </div>                                
+                            </section>                                                    
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+            <div class="fixed-sidebar"> 
+    <div class="fixed-sidebar__messengers messengers-color">
+      <a href="https://vk.com/septik_kupit_spb78" class="messengers-color__item messengers-color__item--vk">
+        <svg class="messengers-color__icon icon-svg">
+            <use xlink:href="img/icons/sprite-icons.svg#vk"></use>
+        </svg>
+      </a>
+      <a href="https://www.youtube.com/channel/UCGkxxqpT9XmRvgPql9LXK-g/featured" class="messengers-color__item messengers-color__item--youtube">
+        <svg class="messengers-color__icon icon-svg">
+            <use xlink:href="img/icons/sprite-icons.svg#youtube"></use>
+        </svg>
+      </a>
+      <a href="https://t.me/ecoLiFe_S_P_B" class="messengers-color__item messengers-color__item--telegramm">
+        <svg class="messengers-color__icon icon-svg">
+            <use xlink:href="img/icons/sprite-icons.svg#telegramm"></use>
+        </svg>
+      </a>
+    </div>
+    <a class="fixed-sidebar__calc" href="/kalkulyator-rascheta-avtonomnoj-kanalizacii.html">
+      <svg class="icon-svg">
+        <use xlink:href="img/icons/sprite-icons.svg#calculator"></use>
+      </svg>
+      <span>Подбор септика</span>
+    </a>
+  </div>
+  <div class="button-up"></div>
+  <footer class="footer">
+    <div class="container">
+        <div class="footer__body body-footer ">            
+            <div class="row gy-3">
+                <div class="col-sm-6 col-lg-3">
+                    <a class="body-footer__logo" href="/">
+                        <picture><source srcset="img/logo.webp" type="image/webp"><img class="body-footer__logo-img" src="img/logo.png" alt="Логотип в футере"></picture>
+                    </a>
+                    <div class="body-footer__contacts">
+                        <a class="body-footer__phone-link big-phone" href="tel:+78123173669">+7 (812) 317-36-69</a>
+                        <div class="body-footer__messengers messengers-color">
+                            <a href="#" class="messengers-color__item messengers-color__item--telegramm">
+                                <svg class="messengers-color__icon icon-svg">
+                                    <use xlink:href="img/icons/sprite-icons.svg#telegramm"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="messengers-color__item messengers-color__item--whatsapp">
+                                <svg class="messengers-color__icon icon-svg">
+                                    <use xlink:href="img/icons/sprite-icons.svg#whatsapp"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <a class="body-footer__email-link email-link" href="mailto:zakaz@ecolife-pro.ru">zakaz@ecolife-pro.ru</a>
+                    </div>
+                    <div class="body-footer__info">
+                        <div class="body-footer__qr">
+                            <picture><source srcset="img/qr.webp" type="image/webp"><img src="img/qr.jpg" alt="Qr"></picture>
+                        </div>
+                        <div class="body-footer__text">
+                            <p>ООО «ЭкоЛайф»</p>
+                            <p>ИНН: 7802494653</p>
+                            <p>ОГРН: 1107847045657</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7 ps-xl-3 order-sm-2 order-lg-0">
+                    <div class="body-footer__title">Консультация и выезд Бесплатно!</div>
+                    <div class="row gy-3">
+                        <div class="col-md-7">
+                            <div class="body-footer__text mb-3">
+                                <p>Монтажники без выходных: 09:00 - 21:00</p>
+                                <p>Офис пн-пт : 10:00 - 18:00</p>
+                            </div>
+                            <div class="body-footer__text">
+                                <p class="body-footer__subtitle">Приходите в наш офис</p>
+                                <p>Мы находимся в 10 минутах ходьбы от м. Лесная. <br>
+                                    СПб, Кантемировская улица, дом 39, офис №211</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <ul class="body-footer__menu">
+                                <li><a href="/lokalnye-ochistnye-sooruzhenija.html">Локальные очистные сооружения</a></li> 
+                                <li><a href="/vodosnabzhenie.html">Водоснабжение частного дома</a></li> 
+                                <li><a href="/septik-pod-kljuch.html">Цена на септики</a></li>                                 
+                                <li><a href="/stati">Полезные статьи</a></li> 
+                                <li><a href="/politika-konfidencialnosti.html">Политика конфиденциальности</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2 ps-xl-3">
+                    <a class="body-footer__btn main-btn link-modal-js" href="#modal-call">Оставить заявку</a>
+                    <div class="body-footer__payment">
+                        <picture><source srcset="img/visa.webp" type="image/webp"><img class="payment-img" src="img/visa.png" alt="Виза"></picture>
+                        <picture><source srcset="img/mk.webp" type="image/webp"><img class="payment-img" src="img/mk.png" alt="Виза"></picture>
+                        <p>Принимаем к оплате</p>
+                    </div>
+                    <div class="body-footer__social">
+                        <div class="messengers-black">
+                            <a href="#" class="messengers-black__item messengers-black__item--vk">
+                                <svg class="messengers-black__icon icon-svg">
+                                    <use xlink:href="img/icons/sprite-icons.svg#vk"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="messengers-black__item messengers-black__item--youtube">
+                                <svg class="messengers-black__icon icon-svg">
+                                    <use xlink:href="img/icons/sprite-icons.svg#youtube"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="messengers-black__item messengers-black__item--telegramm">
+                                <svg class="messengers-black__icon icon-svg">
+                                    <use xlink:href="img/icons/sprite-icons.svg#telegramm"></use>
+                                </svg>
+                            </a>                            
+                        </div>
+                        <p>Давайте дружить</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom bottom-footer">
+            <div class="bottom-footer__info">
+                <p>Информация не является публичной офертой. Точная стоимость проведения работ определяется после выезда специалиста компании.</p>
+                <p>© 2007 - 2022 Компания «ЭкоЛайф» - Запрещается копирование и распространение информации без предварительного согласия правообладателя.</p>
+            </div>
+            <div class="bottom-footer__links">
+                <a href="/sitemap.html" title="Карта сайта">Карта сайта</a>
+                <a href="https://newclients1.ru/" target="_blank">Новые клиенты</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Modals-->
+<div class="modal" id="modal-buy" style="display: none">
+	<div class="modal__title h1">
+		Купить Автономная канализация BioDeka 3 C-700
+	</div>
+	<form class="modal__form-call form-call" >
+        <input class="form-call__input custom-input" name="Имя" type="text" placeholder="Ваше имя" required/>
+		<input class="form-call__input custom-input" name="Телефон" type="tel" placeholder="+7 (___) ___-__-__" required/>		
+		<button class="form-call__btn main-btn" type="submit">Отправить</button>
+        <label class="form-call__polite custom-checkbox">
+            <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox" required>
+            <span class="custom-checkbox__name">Я согласен с политикой конфиденциальности</span>
+        </label>
+	</form>
+</div>
+
+<div class="modal modal--call" id="modal-call" style="display: none">
+	<div class="modal__title h1">
+		Оставить заявку
+	</div>
+	<div class="modal__text">
+		БЕСПЛАТНАЯ консультация и вызов специалиста!
+	</div>
+	<form class="modal__form-call form-call" >
+        <input class="form-call__input custom-input" name="Имя" type="text" placeholder="Ваше имя" required/>
+		<input class="form-call__input custom-input" name="Телефон" type="tel" placeholder="+7 (___) ___-__-__" required/>		
+		<button class="form-call__btn main-btn" type="submit">Отправить</button>
+        <label class="form-call__polite custom-checkbox">
+            <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox" required>
+            <span class="custom-checkbox__name">Я согласен с политикой конфиденциальности</span>
+        </label>
+	</form>
+</div>
+
+<div class="modal modal--call" id="modal-order" style="display: none">
+	<div class="modal__title h1">
+		Заказать консультацию
+	</div>
+	<form class="modal__form-call form-call" >
+        <input class="form-call__input custom-input" name="Имя" type="text" placeholder="Ваше имя" required/>
+		<input class="form-call__input custom-input" name="Телефон" type="tel" placeholder="+7 (___) ___-__-__" required/>		
+		<button class="form-call__btn main-btn" type="submit">Отправить</button>
+        <label class="form-call__polite custom-checkbox">
+            <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox" required>
+            <span class="custom-checkbox__name">Я согласен с политикой конфиденциальности</span>
+        </label>
+	</form>
+</div>
+
+<div class="modal modal--read" id="modal-read" style="display: none">
+	<div class="modal__title h1">
+		Устали читать?
+	</div>    
+	<div class="modal__text">
+		Оставьте свой телефон и мы Вам перезвоним и все расскажем!
+	</div>
+	<form class="modal__form-call form-call" >
+		<input class="form-call__input custom-input" name="Телефон" type="tel" placeholder="+7 (___) ___-__-__" required/>		
+		<button class="form-call__btn main-btn" type="submit">Отправить</button>
+        <label class="form-call__polite custom-checkbox">
+            <input class="custom-checkbox__input" value="" name="checkbox" type="checkbox" required>
+            <span class="custom-checkbox__name">Я согласен с политикой конфиденциальности</span>
+        </label>
+	</form>
+</div>
+<!-- //Modals-->
+
+<script src="libs/jquery.min.js?_v=20230301124523"></script>
+<script src="libs/fancybox.min.js?_v=20230301124523"></script>
+<script src="libs/swiper-bundle.min.js?_v=20230301124523"></script>
+<script src="libs/dynamic_adapt.js?_v=20230301124523"></script>
+<script src="js/main.js?_v=20230301124523"></script> 
+<script src="js/page.js?_v=20230301124523"></script> 
+        </div>  
+    </body>
+</html>

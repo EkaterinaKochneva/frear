@@ -836,6 +836,27 @@ main p:last-child {
      object-fit: cover;
 }
 
+.example-item__mark {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35px;
+  height: 35px;
+  color: var(--white);
+  font-size: 20px;
+  background-color: var(--special-color);
+  border-radius: 50%;
+}
+
 .example-item__title {
   display: block;
   color: var(--main-color-font);
