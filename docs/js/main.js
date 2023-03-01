@@ -22,6 +22,16 @@ $(document).ready(function(){
 		parent.children(".bottom-header__submenu").slideToggle();
 	});
 
+	// Фиксация меню в шапке
+	$(window).on('scroll', function () {
+		let posScrol = $('.top-header').outerHeight() + $('.body-header').outerHeight();
+		if ($(this).scrollTop() > posScrol) {
+			$('.header').addClass('fixed');
+		} else {
+			$('.header').removeClass('fixed');
+		}
+	});
+
 	// Cлайдер сертификатов
 	const swiperCertificates = new Swiper('.certificates__slider', {
 		loop: true,
@@ -121,6 +131,38 @@ $(document).ready(function(){
 			.addClass('active').siblings().removeClass('active')
 			.closest('.tabs').find('.tabs__content').hide().removeClass('active')
 			.eq($(this).index()).fadeIn(50).addClass('active');
+	});
+
+	// Прокрутка наверх страницы
+	$(window).on('scroll', function () {
+		if ($(this).scrollTop() > 100) {
+			$('.button-up').addClass('scroll');
+		} else {
+			$('.button-up').removeClass('scroll');
+		}
+	});
+	$('.button-up').click(function(){
+		$('body,html').animate({
+		scrollTop: 0
+		}, 500);
+		return false;
+	});
+
+	// Фиксация блока консультанта
+	$(window).scroll(function(){
+		if ($('.page__row').outerHeight(true) > 1000){
+			let posScrol = $('.promo-sidebar').offset().top + $('.promo-sidebar').outerHeight();
+			let contentHeight = $('.page__row').offset().top + $('.page__row').outerHeight()  - $('.sidebar__consultant').outerHeight() - 60;
+			console.log(contentHeight);
+			if ($(window).scrollTop() <= posScrol)
+				$('.sidebar__consultant').removeClass('fixed');
+			else $('.sidebar__consultant').addClass('fixed');
+			if ($(window).scrollTop() > contentHeight){
+				$('.sidebar__consultant').addClass('fixed-2')
+			} else {
+				$('.sidebar__consultant').removeClass('fixed-2');
+			}
+		}
 	});
 
 

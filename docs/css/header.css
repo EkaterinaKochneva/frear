@@ -416,6 +416,18 @@
 }
 
 @media (min-width: 768px) {
+  .header.fixed {
+    padding-bottom: 50px;
+  }
+
+  .header.fixed .bottom-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+
   .menu-top__item:hover > .menu-top__submenu {
     display: block;
   }

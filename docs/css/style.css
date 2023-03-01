@@ -1516,6 +1516,10 @@ main p:last-child {
   background-image: url("data:image/svg+xml,%3Csvg width='21' height='18' viewBox='0 0 21 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.8187 1L18.7629 9L10.8187 17' stroke='%23F58A0C' stroke-width='2'/%3E%3Cpath d='M18.7629 8.89551L0.888377 8.89551' stroke='%23F58A0C' stroke-width='2'/%3E%3C/svg%3E");
 }
 
+.sidebar {
+  position: relative;
+}
+
 .sidebar__search {
   margin-bottom: 20px;
 }
@@ -4403,6 +4407,20 @@ main ul:not([class]) li::before {
 
   .ps-md-5 {
     padding-left: 3rem !important;
+  }
+
+  .sidebar__consultant.fixed {
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    max-width: inherit;
+    margin-bottom: 0;
+  }
+
+  .sidebar__consultant.fixed-2 {
+    position: absolute;
+    top: auto;
+    bottom: 0;
   }
 }
 
