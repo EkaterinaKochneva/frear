@@ -34,3 +34,4 @@
 31. https://ekaterinakochneva.github.io/frear/remont-kolodcev.html
 32. https://ekaterinakochneva.github.io/frear/chistka-kolodcev.html
 33. https://ekaterinakochneva.github.io/frear/obustrojstvo-zaezda-na-uchastok.html
+34. https://ekaterinakochneva.github.io/frear/montazh-ventilyacii.html

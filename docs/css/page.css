@@ -628,7 +628,7 @@
   font-size: 14px;
 }
 
-.big-number-list li span {
+.big-number-list li > span {
   display: block;
   position: absolute;
   top: 50%;
