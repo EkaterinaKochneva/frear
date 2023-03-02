@@ -31,3 +31,4 @@
 28. https://ekaterinakochneva.github.io/frear/teplyj-pol.html
 29. https://ekaterinakochneva.github.io/frear/kolodec-pod-kljuch.html
 30. https://ekaterinakochneva.github.io/frear/poisk-vody.html
+31. https://ekaterinakochneva.github.io/frear/remont-kolodcev.html

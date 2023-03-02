@@ -2060,6 +2060,13 @@ main p:last-child {
   background-color: var(--accent-color-hover);
 }
 
+.example-item__icon {
+  color: var(--special-color);
+  margin-right: 3px;
+  height: 25px;
+  vertical-align: sub;
+}
+
 .video-block {
   position: relative;
   height: 0;
