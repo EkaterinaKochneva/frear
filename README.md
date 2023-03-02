@@ -36,3 +36,4 @@
 33. https://ekaterinakochneva.github.io/frear/obustrojstvo-zaezda-na-uchastok.html
 34. https://ekaterinakochneva.github.io/frear/montazh-ventilyacii.html
 35. https://ekaterinakochneva.github.io/frear/obustrojstvo-kanavy-vdol-zagorodnogo-uchastka.html
+36. https://ekaterinakochneva.github.io/frear/drenazh-uchastka.html
