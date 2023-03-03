@@ -38,3 +38,4 @@
 35. https://ekaterinakochneva.github.io/frear/obustrojstvo-kanavy-vdol-zagorodnogo-uchastka.html
 36. https://ekaterinakochneva.github.io/frear/drenazh-uchastka.html
 37. https://ekaterinakochneva.github.io/frear/otmostka-vokrug-doma.html
+38. https://ekaterinakochneva.github.io/frear/servisnoe-obsluzhivanie-septikov.html
