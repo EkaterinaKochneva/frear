@@ -37,3 +37,4 @@
 34. https://ekaterinakochneva.github.io/frear/montazh-ventilyacii.html
 35. https://ekaterinakochneva.github.io/frear/obustrojstvo-kanavy-vdol-zagorodnogo-uchastka.html
 36. https://ekaterinakochneva.github.io/frear/drenazh-uchastka.html
+37. https://ekaterinakochneva.github.io/frear/otmostka-vokrug-doma.html
