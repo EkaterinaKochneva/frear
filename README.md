@@ -41,3 +41,4 @@
 38. https://ekaterinakochneva.github.io/frear/servisnoe-obsluzhivanie-septikov.html
 39. https://ekaterinakochneva.github.io/frear/obsluzhivanie-sistem-vodosnabzheniya.html
 40. https://ekaterinakochneva.github.io/frear/elektrika-v-zagorodnom-dome.html
+41. https://ekaterinakochneva.github.io/frear/elektrika-dlya-chastnogo-doma.html
