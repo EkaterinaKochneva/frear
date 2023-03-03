@@ -39,3 +39,4 @@
 36. https://ekaterinakochneva.github.io/frear/drenazh-uchastka.html
 37. https://ekaterinakochneva.github.io/frear/otmostka-vokrug-doma.html
 38. https://ekaterinakochneva.github.io/frear/servisnoe-obsluzhivanie-septikov.html
+39. https://ekaterinakochneva.github.io/frear/obsluzhivanie-sistem-vodosnabzheniya.html
