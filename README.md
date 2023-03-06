@@ -56,3 +56,5 @@
 50. https://ekaterinakochneva.github.io/frear/partners.html
 51. https://ekaterinakochneva.github.io/frear/garantiya.html
 52. https://ekaterinakochneva.github.io/frear/voprosy.html
+53. https://ekaterinakochneva.github.io/frear/dostavka-septika.html
+54. https://ekaterinakochneva.github.io/frear/oplata.html
