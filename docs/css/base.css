@@ -570,8 +570,8 @@
 }
 
 .img-lg-cover--contain img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
 }
 
 .img-lg-right {

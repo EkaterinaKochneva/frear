@@ -51,3 +51,8 @@
 
 46. https://ekaterinakochneva.github.io/frear/vakansii.html
 47. https://ekaterinakochneva.github.io/frear/nashi-sotrudniki.html
+48. https://ekaterinakochneva.github.io/frear/photoalbum.html
+49. https://ekaterinakochneva.github.io/frear/sertifikaty.html
+50. https://ekaterinakochneva.github.io/frear/partners.html
+51. https://ekaterinakochneva.github.io/frear/garantiya.html
+52. https://ekaterinakochneva.github.io/frear/voprosy.html
