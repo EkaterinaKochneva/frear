@@ -792,6 +792,11 @@
   line-height: 15px;
 }
 
+.bg-grn {
+  background-color: var(--special-color);
+  color: var(--white);
+}
+
 @media (max-width: 1199px) {
   .hero-block__content {
     padding-left: 20px;

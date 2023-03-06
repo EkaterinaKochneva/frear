@@ -44,3 +44,5 @@
 41. https://ekaterinakochneva.github.io/frear/elektrika-dlya-chastnogo-doma.html
 42. https://ekaterinakochneva.github.io/frear/elektrika-dlya-kvartiry.html
 43. https://ekaterinakochneva.github.io/frear/elektromontazhnye-raboty-dlya-kommercheskix-obektov.html
+44. https://ekaterinakochneva.github.io/frear/kanalizacija-iz-zhb-kolec.html
+45. https://ekaterinakochneva.github.io/frear/montazh-kanalizacii.html
