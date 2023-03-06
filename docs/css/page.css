@@ -797,6 +797,14 @@
   color: var(--white);
 }
 
+.little-m-block p {
+  margin-bottom: 5px;
+}
+
+.little-m-block ul {
+  margin: 10px 0 !important;
+}
+
 @media (max-width: 1199px) {
   .hero-block__content {
     padding-left: 20px;
