@@ -58,3 +58,4 @@
 52. https://ekaterinakochneva.github.io/frear/voprosy.html
 53. https://ekaterinakochneva.github.io/frear/dostavka-septika.html
 54. https://ekaterinakochneva.github.io/frear/oplata.html
+55. https://ekaterinakochneva.github.io/frear/otzivi-clientov.html
